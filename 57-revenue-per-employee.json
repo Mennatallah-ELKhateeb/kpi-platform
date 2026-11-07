@@ -1,0 +1,67 @@
+{
+  "id": "revenue-per-employee",
+  "originalNumber": 57,
+  "nameEn": "Revenue per employee (RPE)",
+  "nameAr": "الإيرادات لكل موظف",
+  "acronym": "RPE",
+  "perspectiveId": "employee",
+  "summary": "متوسط الإيرادات نسبةً إلى عدد الموظفين.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى إنتاجية موظفينا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "RPE = الإيرادات ÷ متوسط عدد الموظفين",
+    "type": "calculator",
+    "calculatorId": "revenuePerEmployee",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ليس مقياسًا كاملًا لإنتاجية الفرد؛ فهو يتأثر بنموذج العمل (كثافة العمالة مقابل كثافة رأس المال) وباستخدام المتعاقدين.",
+  "dataSources": [
+    "التقارير المالية",
+    "بيانات الموارد البشرية"
+  ],
+  "measurementFrequency": {
+    "text": "من المنطقي مواءمة القياس مع حساب الإيرادات الذي يتم عادةً ربع سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "نموذج العمل",
+    "التعاقد الخارجي",
+    "تعريف عدد الموظفين (متوسط/نهاية فترة/مكافئ دوام كامل)"
+  ],
+  "limitations": [
+    "ليس مقياسًا كاملًا لإنتاجية الفرد"
+  ],
+  "commonMistakes": [
+    "مقارنة شركات بنماذج عمل مختلفة",
+    "استخدام عدد الموظفين في نهاية الفترة فقط"
+  ],
+  "relatedKpiIds": [
+    "human-capital-value-added",
+    "employee-churn-rate",
+    "revenue-growth-rate"
+  ],
+  "tags": [
+    "people",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 261,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

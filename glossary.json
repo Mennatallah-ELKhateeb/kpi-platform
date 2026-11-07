@@ -1,0 +1,481 @@
+[
+  {
+    "id": "data",
+    "en": "Data",
+    "ar": "البيانات",
+    "definition": "قيم أو سجلات خام تُجمع من الأنظمة أو الملفات أو العمليات قبل تحويلها إلى معلومات.",
+    "label": "applied"
+  },
+  {
+    "id": "metric",
+    "en": "Metric",
+    "ar": "مقياس",
+    "definition": "قيمة قابلة للقياس تصف جانبًا من النشاط أو الأداء، وليست بالضرورة مؤشرًا استراتيجيًا.",
+    "label": "applied"
+  },
+  {
+    "id": "kpi",
+    "en": "Key Performance Indicator",
+    "ar": "مؤشر الأداء الرئيسي",
+    "definition": "مقياس اختير لارتباطه بهدف أو أولوية مهمة ويساعد على تقييم التقدم نحوها.",
+    "label": "applied",
+    "acronym": "KPI"
+  },
+  {
+    "id": "kri",
+    "en": "Key Risk Indicator",
+    "ar": "مؤشر المخاطر الرئيسي",
+    "definition": "مؤشر يتابع إشارات خطر قد تهدد تحقيق الأهداف أو استمرارية العمل؛ وهو تمييز تعليمي وليس من قائمة الـ75.",
+    "label": "applied",
+    "acronym": "KRI"
+  },
+  {
+    "id": "kpq",
+    "en": "Key Performance Question",
+    "ar": "سؤال الأداء الرئيسي",
+    "definition": "السؤال الإداري الذي يحدد المعلومة المطلوبة لفهم جانب مهم من الأداء ويساعد على اختيار المؤشر.",
+    "label": "applied",
+    "acronym": "KPQ"
+  },
+  {
+    "id": "target",
+    "en": "Target",
+    "ar": "المستهدف",
+    "definition": "المستوى الذي تريد المؤسسة تحقيقه خلال فترة محددة، وتحدده الشركة وفق استراتيجيتها ووضعها.",
+    "label": "applied"
+  },
+  {
+    "id": "benchmark",
+    "en": "Benchmark",
+    "ar": "معيار المقارنة",
+    "definition": "قيمة أو أداء يُقارن به، مثل أداء سابق أو مرجع مناسب؛ يجب التحقق من حداثته وقابليته للمقارنة.",
+    "label": "verify"
+  },
+  {
+    "id": "actual",
+    "en": "Actual",
+    "ar": "الفعلي",
+    "definition": "النتيجة التي تحققت فعلًا خلال الفترة.",
+    "label": "applied"
+  },
+  {
+    "id": "gap",
+    "en": "Gap",
+    "ar": "الفجوة",
+    "definition": "الفرق بين النتيجة الفعلية والمستهدف.",
+    "label": "applied"
+  },
+  {
+    "id": "baseline",
+    "en": "Baseline",
+    "ar": "خط الأساس",
+    "definition": "قيمة مرجعية موثقة تُقاس بالنسبة إليها التحسينات أو الوفورات.",
+    "label": "applied"
+  },
+  {
+    "id": "leading-indicator",
+    "en": "Leading indicator",
+    "ar": "مؤشر قائد",
+    "definition": "مؤشر يتغير قبل النتيجة النهائية وقد يساعد على التنبؤ بها، لكنه لا يضمنها.",
+    "label": "applied"
+  },
+  {
+    "id": "lagging-indicator",
+    "en": "Lagging indicator",
+    "ar": "مؤشر لاحق",
+    "definition": "مؤشر يعكس نتيجة حدثت بالفعل، مثل الربح المحقق.",
+    "label": "applied"
+  },
+  {
+    "id": "numerator",
+    "en": "Numerator",
+    "ar": "البسط",
+    "definition": "الجزء العلوي من النسبة، أي القيمة التي تُقسم.",
+    "label": "applied"
+  },
+  {
+    "id": "denominator",
+    "en": "Denominator",
+    "ar": "المقام",
+    "definition": "الجزء السفلي من النسبة، وتغيير تعريفه يغيّر الرقم دون تغيير الأداء؛ لا يجوز أن يساوي صفرًا.",
+    "label": "applied"
+  },
+  {
+    "id": "percentage-points",
+    "en": "Percentage points",
+    "ar": "النقاط المئوية",
+    "definition": "الفرق الحسابي بين نسبتين؛ ارتفاع من 80% إلى 90% يساوي 10 نقاط مئوية.",
+    "label": "applied"
+  },
+  {
+    "id": "percentage-change",
+    "en": "Percentage change",
+    "ar": "التغير النسبي",
+    "definition": "(الحالي − السابق) ÷ السابق × 100%؛ ولا يصلح مباشرة إذا كانت القيمة السابقة صفرًا.",
+    "label": "applied"
+  },
+  {
+    "id": "margin",
+    "en": "Margin",
+    "ar": "الهامش",
+    "definition": "نسبة ربح معين إلى الإيرادات، ويختلف المقصود به بحسب نوع الربح (إجمالي أو تشغيلي أو صافٍ).",
+    "label": "applied"
+  },
+  {
+    "id": "ratio",
+    "en": "Ratio",
+    "ar": "نسبة",
+    "definition": "علاقة بين قيمتين لا تتحول دائمًا إلى نسبة مئوية؛ ويلزم تعريف مناسب قبل تفسيرها.",
+    "label": "applied"
+  },
+  {
+    "id": "revenue",
+    "en": "Revenue",
+    "ar": "الإيرادات",
+    "definition": "المبالغ المحققة من بيع المنتجات أو الخدمات خلال فترة، وفق السياسة المحاسبية المعتمدة.",
+    "label": "applied"
+  },
+  {
+    "id": "net-profit",
+    "en": "Net profit",
+    "ar": "صافي الربح",
+    "definition": "ما يتبقى من الإيرادات بعد خصم المصروفات والتكاليف الداخلة في الحساب وفق القوائم المالية.",
+    "label": "book"
+  },
+  {
+    "id": "cogs",
+    "en": "Cost of goods sold",
+    "ar": "تكلفة البضاعة المباعة",
+    "definition": "التكلفة المباشرة للمنتجات أو الخدمات التي بيعت خلال الفترة.",
+    "label": "applied",
+    "acronym": "COGS"
+  },
+  {
+    "id": "operating-profit",
+    "en": "Operating profit",
+    "ar": "الربح التشغيلي",
+    "definition": "ربح العمليات الأساسية قبل بعض البنود غير التشغيلية؛ تختلف البنود المضمنة بحسب التعريف.",
+    "label": "verify"
+  },
+  {
+    "id": "ebit",
+    "en": "Earnings before interest and taxes",
+    "ar": "الأرباح قبل الفوائد والضرائب",
+    "definition": "مقياس ربح يستبعد الفوائد والضرائب، وقد يتطابق أو يختلف عن الربح التشغيلي بحسب التعريف.",
+    "label": "verify",
+    "acronym": "EBIT"
+  },
+  {
+    "id": "ebitda",
+    "en": "Earnings before interest, taxes, depreciation and amortisation",
+    "ar": "الأرباح قبل الفوائد والضرائب والإهلاك والإطفاء",
+    "definition": "مقياس أرباح يستبعد البنود الأربعة؛ وهو ليس صافي ربح ولا تدفقًا نقديًا.",
+    "label": "book",
+    "acronym": "EBITDA"
+  },
+  {
+    "id": "capital-employed",
+    "en": "Capital employed",
+    "ar": "رأس المال المستخدم",
+    "definition": "رأس المال المستثمر في تشغيل الشركة، ويختلف تعريفه بين المؤسسات.",
+    "label": "verify"
+  },
+  {
+    "id": "working-capital",
+    "en": "Working capital",
+    "ar": "رأس المال العامل",
+    "definition": "الفرق بين الأصول المتداولة والالتزامات المتداولة، ويُستخدم لتقدير القدرة على تغطية الالتزامات القريبة.",
+    "label": "applied"
+  },
+  {
+    "id": "lead",
+    "en": "Lead",
+    "ar": "عميل محتمل",
+    "definition": "شخص أو جهة أبدت اهتمامًا يمكن متابعته تجاريًا؛ تعريفه يختلف بين الشركات ويجب توثيقه.",
+    "label": "verify"
+  },
+  {
+    "id": "conversion",
+    "en": "Conversion",
+    "ar": "التحويل",
+    "definition": "إتمام الإجراء المطلوب مثل الشراء أو التسجيل، ويجب تعريفه بوضوح قبل القياس.",
+    "label": "applied"
+  },
+  {
+    "id": "churn",
+    "en": "Churn",
+    "ar": "الفقدان أو الدوران",
+    "definition": "خروج عملاء أو موظفين خلال فترة؛ تختلف الصيغ بحسب تعريف الخروج والمقام.",
+    "label": "verify"
+  },
+  {
+    "id": "retention",
+    "en": "Retention",
+    "ar": "الاحتفاظ",
+    "definition": "نسبة العملاء أو الموظفين الذين استمروا خلال فترة، وتتعدد صيغ حسابها.",
+    "label": "verify"
+  },
+  {
+    "id": "nps",
+    "en": "Net promoter score",
+    "ar": "مؤشر صافي المروّجين",
+    "definition": "نسبة المروجين ناقص نسبة المنتقدين وفق مقياس الاستبيان؛ وليس مقياس رضا مباشرًا.",
+    "label": "book",
+    "acronym": "NPS"
+  },
+  {
+    "id": "promoter",
+    "en": "Promoter",
+    "ar": "مروّج",
+    "definition": "مستجيب يُصنَّف وفق مقياس الاستبيان على أنه مستعد للتوصية بالشركة بقوة.",
+    "label": "verify"
+  },
+  {
+    "id": "detractor",
+    "en": "Detractor",
+    "ar": "منتقد",
+    "definition": "مستجيب يُصنَّف وفق مقياس الاستبيان على أنه غير مستعد للتوصية أو معارض لها.",
+    "label": "verify"
+  },
+  {
+    "id": "crm",
+    "en": "Customer relationship management",
+    "ar": "إدارة علاقات العملاء",
+    "definition": "نظام يسجل بيانات العملاء وتفاعلاتهم وفرص البيع، ويُعد مصدرًا شائعًا لبيانات المؤشرات.",
+    "label": "applied",
+    "acronym": "CRM"
+  },
+  {
+    "id": "erp",
+    "en": "Enterprise resource planning",
+    "ar": "تخطيط موارد المؤسسة",
+    "definition": "نظام يدمج وظائف مثل المخزون والمشتريات والمالية، ويُستخدم مصدرًا لبيانات التشغيل.",
+    "label": "applied",
+    "acronym": "ERP"
+  },
+  {
+    "id": "dashboard",
+    "en": "Dashboard",
+    "ar": "لوحة المعلومات",
+    "definition": "عرض موجز لمؤشرات مختارة مع المستهدف والاتجاه لمساعدة الإدارة على المتابعة.",
+    "label": "applied"
+  },
+  {
+    "id": "data-quality",
+    "en": "Data quality",
+    "ar": "جودة البيانات",
+    "definition": "مدى اكتمال البيانات ودقتها واتساقها وتوقيتها وتفردها ووضوح تعريفها.",
+    "label": "applied"
+  },
+  {
+    "id": "measurement-frequency",
+    "en": "Measurement frequency",
+    "ar": "دورية القياس",
+    "definition": "معدل تكرار قياس المؤشر، وتتحدد وفق سرعة تغير الأداء واحتياج القرار وتوافر البيانات.",
+    "label": "applied"
+  },
+  {
+    "id": "sample-size",
+    "en": "Sample size",
+    "ar": "حجم العينة",
+    "definition": "عدد المستجيبين أو الحالات المستخدمة في الاستبيان أو التحليل، ويؤثر في موثوقية النتيجة.",
+    "label": "applied"
+  },
+  {
+    "id": "composite-index",
+    "en": "Composite index",
+    "ar": "مؤشر مركب",
+    "definition": "مؤشر يجمع عدة مقاييس في رقم واحد وفق أوزان وتعريفات محددة.",
+    "label": "applied"
+  },
+  {
+    "id": "weighting",
+    "en": "Weighting",
+    "ar": "الترجيح",
+    "definition": "إعطاء مكونات المؤشر المركب أهمية نسبية مختلفة، واختيار الأوزان يؤثر في النتيجة.",
+    "label": "applied"
+  },
+  {
+    "id": "planned-value",
+    "en": "Planned value",
+    "ar": "القيمة المخططة",
+    "definition": "قيمة العمل المخطط إنجازه حتى تاريخ معين وفق ميزانية المشروع.",
+    "label": "applied",
+    "acronym": "PV"
+  },
+  {
+    "id": "earned-value",
+    "en": "Earned value",
+    "ar": "القيمة المكتسبة",
+    "definition": "القيمة المدرجة في الميزانية للعمل المنجز فعلًا؛ ولا تساوي النقد المدفوع.",
+    "label": "book",
+    "acronym": "EV"
+  },
+  {
+    "id": "actual-cost",
+    "en": "Actual cost",
+    "ar": "التكلفة الفعلية",
+    "definition": "التكلفة المتكبدة فعليًا لإنجاز العمل حتى تاريخ معين.",
+    "label": "applied",
+    "acronym": "AC"
+  },
+  {
+    "id": "defect",
+    "en": "Defect",
+    "ar": "عيب",
+    "definition": "عدم مطابقة وحدة أو مخرج للمواصفة المعرفة؛ ويجب تعريفه قبل قياس الجودة.",
+    "label": "applied"
+  },
+  {
+    "id": "rework",
+    "en": "Rework",
+    "ar": "إعادة العمل",
+    "definition": "تصحيح وحدة أو مخرج لا يطابق المواصفة؛ ويختلف عن الإصلاح والصيانة.",
+    "label": "applied"
+  },
+  {
+    "id": "yield",
+    "en": "Yield",
+    "ar": "العائد الإنتاجي",
+    "definition": "نسبة المخرجات المقبولة إلى الداخلة في عملية إنتاجية.",
+    "label": "applied"
+  },
+  {
+    "id": "dpmo",
+    "en": "Defects per million opportunities",
+    "ar": "عيوب لكل مليون فرصة",
+    "definition": "مقياس يعبّر عن عدد العيوب بالنسبة إلى فرص حدوثها، ويُستخدم في سياق Six Sigma.",
+    "label": "applied",
+    "acronym": "DPMO"
+  },
+  {
+    "id": "six-sigma",
+    "en": "Six Sigma",
+    "ar": "سيغما الستة",
+    "definition": "منهج لتحسين الجودة يقيس أداء العملية من حيث العيوب؛ يلزم تعريف العيب والفرصة وحدود المواصفات.",
+    "label": "book"
+  },
+  {
+    "id": "downtime",
+    "en": "Downtime",
+    "ar": "وقت التوقف",
+    "definition": "وقت توقف العملية أو الماكينة، ويُفصل فيه بين التوقف المخطط وغير المخطط.",
+    "label": "applied"
+  },
+  {
+    "id": "oee",
+    "en": "Overall equipment effectiveness",
+    "ar": "الفعالية الكلية للمعدات",
+    "definition": "حاصل ضرب الإتاحة والأداء والجودة وفق تعريفات المكونات.",
+    "label": "book",
+    "acronym": "OEE"
+  },
+  {
+    "id": "availability",
+    "en": "Availability",
+    "ar": "الإتاحة",
+    "definition": "أحد مكونات OEE، ويعبّر عن نسبة الوقت الذي كانت فيه المعدة متاحة للتشغيل.",
+    "label": "applied"
+  },
+  {
+    "id": "performance-rate",
+    "en": "Performance",
+    "ar": "الأداء",
+    "definition": "أحد مكونات OEE، ويقارن سرعة التشغيل الفعلية بالسرعة المرجعية.",
+    "label": "applied"
+  },
+  {
+    "id": "quality-rate",
+    "en": "Quality",
+    "ar": "الجودة",
+    "definition": "أحد مكونات OEE، ويعبّر عن نسبة المخرجات المقبولة.",
+    "label": "applied"
+  },
+  {
+    "id": "difot",
+    "en": "Delivery in full, on time",
+    "ar": "التسليم كاملًا وفي الموعد",
+    "definition": "نسبة الطلبات المسلمة كاملة وفي الموعد، بعد تحديد الموعد المرجعي ومعنى كامل.",
+    "label": "book",
+    "acronym": "DIFOT"
+  },
+  {
+    "id": "shrinkage",
+    "en": "Shrinkage",
+    "ar": "فاقد المخزون",
+    "definition": "فارق أو فقد غير مفسر في المخزون؛ ويُفصل عن التلف والأخطاء المسجلة.",
+    "label": "applied"
+  },
+  {
+    "id": "scope-1",
+    "en": "Scope 1 emissions",
+    "ar": "انبعاثات النطاق الأول",
+    "definition": "انبعاثات مباشرة من مصادر تملكها الشركة أو تتحكم فيها، مثل حرق الوقود.",
+    "label": "verify"
+  },
+  {
+    "id": "scope-2",
+    "en": "Scope 2 emissions",
+    "ar": "انبعاثات النطاق الثاني",
+    "definition": "انبعاثات غير مباشرة ناتجة عن الطاقة المشتراة مثل الكهرباء.",
+    "label": "verify"
+  },
+  {
+    "id": "scope-3",
+    "en": "Scope 3 emissions",
+    "ar": "انبعاثات النطاق الثالث",
+    "definition": "انبعاثات غير مباشرة أخرى في سلسلة القيمة، مثل النقل والمشتريات.",
+    "label": "verify"
+  },
+  {
+    "id": "co2e",
+    "en": "Carbon dioxide equivalent",
+    "ar": "مكافئ ثاني أكسيد الكربون",
+    "definition": "وحدة لتوحيد غازات الدفيئة المختلفة بحسب أثرها المناخي، وتعتمد على عوامل تحويل معتمدة.",
+    "label": "verify",
+    "acronym": "CO₂e"
+  },
+  {
+    "id": "carbon-footprint",
+    "en": "Carbon footprint",
+    "ar": "البصمة الكربونية",
+    "definition": "انبعاثات غازات الدفيئة المرتبطة بالنشاط محوّلة إلى مكافئ CO₂ وفق حدود وعوامل موثقة.",
+    "label": "book"
+  },
+  {
+    "id": "bradford-factor",
+    "en": "Bradford factor",
+    "ar": "عامل برادفورد",
+    "definition": "صيغة شائعة S² × D حيث S عدد فترات الغياب وD مجموع أيام الغياب؛ تُستخدم بحذر ووفق سياسة عادلة وقوانين العمل.",
+    "label": "book"
+  },
+  {
+    "id": "klout",
+    "en": "Klout score",
+    "ar": "درجة Klout",
+    "definition": "مؤشر تاريخي لقياس التأثير الاجتماعي عبر خدمة Klout؛ يلزم التحقق من الخدمة قبل اعتباره معيارًا حديثًا.",
+    "label": "verify"
+  },
+  {
+    "id": "bounce-rate",
+    "en": "Bounce rate",
+    "ar": "معدل الارتداد",
+    "definition": "نسبة الزيارات التي غادرت دون تفاعل إضافي وفق تعريف المنصة؛ يختلف تعريفه بين أدوات التحليلات.",
+    "label": "verify"
+  },
+  {
+    "id": "ctr",
+    "en": "Click-through rate",
+    "ar": "معدل النقر",
+    "definition": "النقرات ÷ مرات الظهور × 100%.",
+    "label": "applied",
+    "acronym": "CTR"
+  },
+  {
+    "id": "causation",
+    "en": "Causation",
+    "ar": "السببية",
+    "definition": "علاقة يؤدي فيها عامل إلى آخر؛ ولا يثبتها الارتباط بين متغيرين وحده.",
+    "label": "applied"
+  }
+]

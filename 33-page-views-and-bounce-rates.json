@@ -1,0 +1,70 @@
+{
+  "id": "page-views-and-bounce-rates",
+  "originalNumber": 33,
+  "nameEn": "Page views and bounce rates",
+  "nameAr": "مشاهدات الصفحات ومعدل الارتداد",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "حجم مشاهدة المحتوى وسلوك مغادرة الزائر وفق تعريف منصة التحليلات.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى فعالية استراتيجيتنا على الإنترنت؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مشاهدات الصفحات: عدّ مباشر؛ ومعدل الارتداد وفق إعدادات أداة التحليلات",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "تعريف المشاهدة",
+      "تعريف الارتداد في الأداة المستخدمة",
+      "الصفحة أو القسم",
+      "مصدر الزيارات",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "تعريف الارتداد يختلف بين المنصات؛ لا تقارن رقمًا من أداة بأداة أخرى أو بمعيار خارجي دون التحقق من التعريف.",
+  "dataSources": [
+    "تحليلات الويب"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس بشكل مستمر بحسب الوسيط المحلَّل، ويُعرض بالتكرار الذي يحتاجه مالك الموقع.",
+    "label": "book"
+  },
+  "factors": [
+    "مصدر الزيارات",
+    "نوع الصفحة (مقال، صفحة هبوط…)",
+    "سرعة الموقع"
+  ],
+  "limitations": [
+    "تعريف الارتداد يختلف بين المنصات"
+  ],
+  "commonMistakes": [
+    "اعتبار الارتداد المرتفع سيئًا دائمًا (قد يجد الزائر إجابته بسرعة)"
+  ],
+  "relatedKpiIds": [
+    "conversion-rate",
+    "search-engine-rankings-and-click-through-rate",
+    "customer-online-engagement-level"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 155,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

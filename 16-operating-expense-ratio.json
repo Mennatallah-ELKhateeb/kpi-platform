@@ -1,0 +1,68 @@
+{
+  "id": "operating-expense-ratio",
+  "originalNumber": 16,
+  "nameEn": "Operating expense ratio (OER)",
+  "nameAr": "نسبة المصروفات التشغيلية",
+  "acronym": "OER",
+  "perspectiveId": "financial",
+  "summary": "عبء المصروفات التشغيلية مقارنةً بأساس محدد (غالبًا الإيرادات) وفق تعريف ثابت.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في إدارة مصروفاتنا التشغيلية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "OER = المصروفات التشغيلية ÷ الأساس المحدد (مثل الإيرادات) × 100%",
+    "type": "calculator",
+    "calculatorId": "operatingExpenseRatio",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "نسبة أقل تعني أن جزءًا أقل من الأساس يُنفق على التشغيل، لكن لا تُستخدم صيغة عامة دون توثيق: ثبّت تعريف المصروفات والمقام وفق القطاع.",
+  "dataSources": [
+    "قائمة الدخل",
+    "السجلات التشغيلية"
+  ],
+  "measurementFrequency": {
+    "text": "تُجمع بيانات النسبة عادةً شهريًا أو ربع سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "حجم الإيرادات",
+    "التكاليف الثابتة والمتغيرة",
+    "سياسات تصنيف المصروفات"
+  ],
+  "limitations": [
+    "لا تستخدم صيغة عامة دون توثيق المقام وتعريف المصروفات"
+  ],
+  "commonMistakes": [
+    "تخفيض المصروفات بما يضر بالجودة أو خدمة العملاء"
+  ],
+  "relatedKpiIds": [
+    "operating-profit-margin",
+    "net-profit-margin",
+    "capex-to-sales-ratio"
+  ],
+  "tags": [
+    "efficiency",
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 71,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "المقام المعتمد في الكتاب لهذا المؤشر يحتاج مراجعة مباشرة؛ الأداة تفترض الإيرادات"
+  ]
+}

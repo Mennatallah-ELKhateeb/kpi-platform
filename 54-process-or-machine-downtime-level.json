@@ -1,0 +1,64 @@
+{
+  "id": "process-or-machine-downtime-level",
+  "originalNumber": 54,
+  "nameEn": "Process or machine downtime level",
+  "nameAr": "مستوى توقف العملية أو الماكينة",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "حجم التوقف المخطط وغير المخطط للعملية أو الماكينة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نشغّل عملياتنا أو آلاتنا بفعالية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "نسبة التوقف = وقت التوقف ÷ وقت التشغيل المخطط × 100%",
+    "type": "calculator",
+    "calculatorId": "downtimeLevel",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "افصل التوقف المخطط (صيانة وقائية) عن غير المخطط (أعطال)، فمعنى الرقم مختلف تمامًا.",
+  "dataSources": [
+    "سجلات الصيانة والتشغيل",
+    "بيانات الآلة نفسها (كثير من الآلات تسجل توقفها آليًا)"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياسه باستمرار إن كانت المراقبة آلية، والإبلاغ عنه عند بلوغ حد محدد مسبقًا؛ أو يكفي عرض شهري أو ربع سنوي.",
+    "label": "book"
+  },
+  "factors": [
+    "أسباب التوقف",
+    "جودة الصيانة الوقائية",
+    "عمر المعدات"
+  ],
+  "limitations": [
+    "افصل التوقف المخطط عن غير المخطط"
+  ],
+  "commonMistakes": [
+    "دمج التوقف المخطط وغير المخطط في رقم واحد"
+  ],
+  "relatedKpiIds": [
+    "overall-equipment-effectiveness",
+    "capacity-utilisation-rate"
+  ],
+  "tags": [
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 247,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

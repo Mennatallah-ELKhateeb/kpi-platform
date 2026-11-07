@@ -1,0 +1,65 @@
+{
+  "id": "waste-recycling-rate",
+  "originalNumber": 74,
+  "nameEn": "Waste recycling rate",
+  "nameAr": "معدل إعادة تدوير النفايات",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "نسبة النفايات المعاد تدويرها من إجمالي النفايات.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نستعيد نفاياتنا لإعادة الاستخدام أو التدوير؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل التدوير = كمية النفايات المعاد تدويرها ÷ إجمالي النفايات × 100%",
+    "type": "calculator",
+    "calculatorId": "wasteRecycling",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "تحقق من الوجهة الفعلية للنفايات (تدوير فعلي أم مجرد فصل)، وحدد الوحدة (وزن أم حجم).",
+  "dataSources": [
+    "سجلات إدارة النفايات ومقدمي خدمة التدوير",
+    "مستندات التخلص والتدوير والأنظمة الداخلية"
+  ],
+  "measurementFrequency": {
+    "text": "تُجمع معدلات تدوير النفايات عادةً ربع سنويًا أو نصف سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "فصل النفايات من المصدر",
+    "عقود مقدمي الخدمة",
+    "نوع النفايات"
+  ],
+  "limitations": [
+    "تحقق من الوجهة الفعلية للنفايات"
+  ],
+  "commonMistakes": [
+    "احتساب النفايات المفصولة على أنها مدوَّرة"
+  ],
+  "relatedKpiIds": [
+    "waste-reduction-rate",
+    "product-recycling-rate",
+    "process-waste-level"
+  ],
+  "tags": [
+    "environment"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 337,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

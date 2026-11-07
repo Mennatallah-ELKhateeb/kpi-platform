@@ -1,0 +1,66 @@
+{
+  "id": "capex-to-sales-ratio",
+  "originalNumber": 17,
+  "nameEn": "CAPEX to sales ratio",
+  "nameAr": "نسبة الإنفاق الرأسمالي إلى المبيعات",
+  "acronym": "CAPEX",
+  "perspectiveId": "financial",
+  "summary": "الإنفاق الرأسمالي (على الأصول طويلة الأجل) مقارنةً بالإيرادات.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نستثمر في مستقبلنا مقارنةً بمنافسينا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "نسبة CAPEX إلى المبيعات = الإنفاق الرأسمالي ÷ الإيرادات × 100%",
+    "type": "calculator",
+    "calculatorId": "capexSales",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يوضح كثافة الاستثمار في الأصول مقارنةً بحجم النشاط. قد تقفز النسبة في سنة مشروعات كبيرة ثم تنخفض.",
+  "dataSources": [
+    "سجلات الأصول",
+    "الإيرادات"
+  ],
+  "measurementFrequency": {
+    "text": "مقياس طويل الأجل؛ لا معنى لقياسه بتكرار أعلى من ربع سنوي أو نصف سنوي.",
+    "label": "book"
+  },
+  "factors": [
+    "مشروعات التوسع",
+    "عمر الأصول القائمة",
+    "طبيعة الصناعة"
+  ],
+  "limitations": [
+    "قد تتأثر بمشروعات كبيرة متقطعة"
+  ],
+  "commonMistakes": [
+    "قراءة سنة واحدة بمعزل عن خطة الاستثمار الأطول"
+  ],
+  "relatedKpiIds": [
+    "return-on-assets",
+    "return-on-capital-employed",
+    "return-on-investment"
+  ],
+  "tags": [
+    "capital",
+    "growth"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 75,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

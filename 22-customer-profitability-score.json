@@ -1,0 +1,73 @@
+{
+  "id": "customer-profitability-score",
+  "originalNumber": 22,
+  "nameEn": "Customer profitability score",
+  "nameAr": "درجة ربحية العميل",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "قياس ربحية عميل (أو شريحة) بعد احتساب التكاليف المرتبطة به.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نحقق أرباحًا من عملائنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ربحية العميل = إيرادات العميل − التكاليف المحددة وفق منهج الشركة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "إيرادات العميل أو الشريحة",
+      "التكاليف المباشرة المنسوبة",
+      "تكاليف الخدمة والدعم",
+      "قاعدة توزيع التكاليف غير المباشرة",
+      "الفترة الزمنية"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "تخصيص التكاليف غير المباشرة يغيّر الترتيب بين العملاء، لذا وثّق منهج التخصيص قبل اتخاذ قرارات حول عملاء بعينهم.",
+  "dataSources": [
+    "نظام CRM",
+    "الفواتير والمحاسبة",
+    "تحليلات التكاليف على أساس النشاط"
+  ],
+  "measurementFrequency": {
+    "text": "يعتمد وقت القياس على المقياس المستخدم؛ وتشير الإشارة في الكتاب إلى أنه لا يوجد مقياس واحد لربحية العميل لأن المقاييس ترتبط بفترات زمنية مختلفة.",
+    "label": "book"
+  },
+  "factors": [
+    "قاعدة توزيع التكاليف",
+    "خصومات وشروط خاصة",
+    "حجم الطلب وتكلفة الخدمة"
+  ],
+  "limitations": [
+    "تخصيص التكاليف قد يغيّر النتيجة"
+  ],
+  "commonMistakes": [
+    "اعتماد ترتيب العملاء دون مراجعة منهج التكاليف"
+  ],
+  "relatedKpiIds": [
+    "customer-lifetime-value",
+    "net-profit-margin",
+    "customer-retention-rate"
+  ],
+  "tags": [
+    "customers",
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 103,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

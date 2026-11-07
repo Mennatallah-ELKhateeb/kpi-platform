@@ -1,0 +1,69 @@
+{
+  "id": "ebitda",
+  "originalNumber": 5,
+  "nameEn": "EBITDA",
+  "nameAr": "الأرباح قبل الفوائد والضرائب والإهلاك والإطفاء",
+  "acronym": "EBITDA",
+  "perspectiveId": "financial",
+  "summary": "مقياس للأرباح يستبعد الفوائد والضرائب والإهلاك والإطفاء، ويُستخدم لمناقشة الأداء التشغيلي بتعريف واضح.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى ندير أعمالنا بكفاءة لتحقيق الأرباح؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "EBITDA = صافي الربح + الفوائد + الضرائب + الإهلاك + الإطفاء",
+    "type": "calculator",
+    "calculatorId": "ebitda",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يُظهر قدرة العمليات على توليد أرباح قبل تأثير البنود الأربعة، لكنه ليس صافي ربح ولا تدفقًا نقديًا. استبعاد الإهلاك قد يجعل الصورة تبدو أفضل في الشركات كثيفة الأصول.",
+  "dataSources": [
+    "قائمة الدخل"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب عادةً كل ربع سنة أو شهر؛ وغالبًا تُتوقع قيمته لـ12 شهرًا وتُعرض عن الـ12 شهرًا السابقة.",
+    "label": "book"
+  },
+  "factors": [
+    "الإيرادات والمصروفات التشغيلية",
+    "حجم الأصول الثابتة ومعدلات الإهلاك",
+    "التعريف المستخدم داخل الشركة"
+  ],
+  "limitations": [
+    "ليس صافي ربح ولا تدفقًا نقديًا",
+    "يختلف الحساب بين الشركات؛ يلزم تثبيت تعريف واحد"
+  ],
+  "commonMistakes": [
+    "الخلط بينه وبين التدفق النقدي",
+    "مقارنة EBITDA لشركتين بتعريفين مختلفين"
+  ],
+  "relatedKpiIds": [
+    "net-profit",
+    "operating-profit-margin",
+    "economic-value-added",
+    "cash-conversion-cycle"
+  ],
+  "tags": [
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 21,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الصيغة المعروضة هي الصيغة المبسطة؛ تحقق من التعريف المعتمد لدى مؤسستك"
+  ]
+}

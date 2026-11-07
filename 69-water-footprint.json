@@ -1,0 +1,71 @@
+{
+  "id": "water-footprint",
+  "originalNumber": 69,
+  "nameEn": "Water footprint",
+  "nameAr": "البصمة المائية",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "حجم المياه المستخدمة أو المرتبطة بالنشاط.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في حماية البيئة أثناء تنفيذ أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "قياس مباشر وغير مباشر حسب منهج البصمة المعتمد",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "الاستخدام المباشر (عدادات)",
+      "الاستخدام غير المباشر (سلسلة الإمداد)",
+      "منهج البصمة المعتمد",
+      "موقع الاستخدام وندرة المياه"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "الأثر يعتمد على الموقع وندرة المياه أيضًا؛ حجم المياه وحده لا يحدد حجم الأثر البيئي.",
+  "dataSources": [
+    "عدادات المياه",
+    "سجلات الإنتاج",
+    "بيانات الموردين وسلسلة الإمداد"
+  ],
+  "measurementFrequency": {
+    "text": "تُقيَّم البصمة المائية عادةً بشكل مستمر خاصةً في المؤسسات الكبيرة كثيفة استخدام المياه، وقد تُعرض سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "الموقع الجغرافي",
+    "تقنيات التشغيل",
+    "مكوّن سلسلة الإمداد"
+  ],
+  "limitations": [
+    "الأثر يعتمد على الموقع وندرة المياه"
+  ],
+  "commonMistakes": [
+    "مقارنة بصمات في مواقع مختلفة الندرة المائية"
+  ],
+  "relatedKpiIds": [
+    "carbon-footprint",
+    "energy-consumption",
+    "waste-reduction-rate"
+  ],
+  "tags": [
+    "environment"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 317,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

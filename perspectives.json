@@ -1,0 +1,68 @@
+[
+  {
+    "id": "financial",
+    "order": 1,
+    "nameEn": "Financial Perspective",
+    "nameAr": "المنظور المالي",
+    "icon": "coins",
+    "description": "الربحية والسيولة واستخدام رأس المال وعوائد المساهمين: النتائج المالية للنشاط، دون أن تكون بديلًا عن المؤشرات غير المالية.",
+    "count": 18,
+    "firstNumber": 1,
+    "lastNumber": 18
+  },
+  {
+    "id": "customer",
+    "order": 2,
+    "nameEn": "Customer Perspective",
+    "nameAr": "منظور العملاء",
+    "icon": "users",
+    "description": "رضا العملاء وولاؤهم وربحيتهم وقيمتهم: ماذا يحدث على الجانب الآخر من العلاقة التجارية.",
+    "count": 8,
+    "firstNumber": 19,
+    "lastNumber": 26
+  },
+  {
+    "id": "marketing",
+    "order": 3,
+    "nameEn": "Marketing and Sales Perspective",
+    "nameAr": "منظور التسويق والمبيعات",
+    "icon": "megaphone",
+    "description": "السوق والعلامة التجارية وتكلفة اكتساب العملاء وحضور الشركة على الإنترنت.",
+    "count": 11,
+    "firstNumber": 27,
+    "lastNumber": 37
+  },
+  {
+    "id": "operations",
+    "order": 4,
+    "nameEn": "Operational Processes and Supply Chain Perspective",
+    "nameAr": "منظور العمليات التشغيلية وسلاسل الإمداد",
+    "icon": "cog",
+    "description": "جودة العمليات وكفاءتها وسرعة التسليم وإدارة المشروعات والابتكار.",
+    "count": 18,
+    "firstNumber": 38,
+    "lastNumber": 55
+  },
+  {
+    "id": "employee",
+    "order": 5,
+    "nameEn": "Employee Perspective",
+    "nameAr": "منظور الموظفين",
+    "icon": "user-round",
+    "description": "إنتاجية الموظفين ورضاهم واحتفاظ الشركة بهم وكفاءة الاستثمار فيهم.",
+    "count": 12,
+    "firstNumber": 56,
+    "lastNumber": 67
+  },
+  {
+    "id": "csr",
+    "order": 6,
+    "nameEn": "Corporate Social Responsibility Perspective",
+    "nameAr": "منظور المسؤولية الاجتماعية للشركات",
+    "icon": "leaf",
+    "description": "الأثر البيئي للنشاط: الطاقة والمياه والكربون والنفايات وإعادة التدوير.",
+    "count": 8,
+    "firstNumber": 68,
+    "lastNumber": 75
+  }
+]

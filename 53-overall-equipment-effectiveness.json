@@ -1,0 +1,66 @@
+{
+  "id": "overall-equipment-effectiveness",
+  "originalNumber": 53,
+  "nameEn": "Overall equipment effectiveness (OEE)",
+  "nameAr": "الفعالية الكلية للمعدات",
+  "acronym": "OEE",
+  "perspectiveId": "operations",
+  "summary": "فعالية استخدام المعدات من حيث الإتاحة والأداء والجودة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تكون معداتنا التشغيلية فعّالة؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "OEE = الإتاحة × الأداء × الجودة",
+    "type": "calculator",
+    "calculatorId": "oee",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "حلّل المكونات الثلاثة بدل الاكتفاء بالرقم الكلي؛ فالمكوّن الأضعف هو أول مكان للتحسين.",
+  "dataSources": [
+    "أنظمة التصنيع",
+    "سجلات التشغيل (آلية أو يدوية)"
+  ],
+  "measurementFrequency": {
+    "text": "يعتمد على الظروف؛ فقد يُنتج لآلات فردية أسبوعيًا، أما للعمليات الأكبر أو المصانع فقد تكفي دورة شهرية.",
+    "label": "book"
+  },
+  "factors": [
+    "التوقفات المخططة وغير المخططة",
+    "سرعة التشغيل مقابل النظرية",
+    "نسبة العيوب"
+  ],
+  "limitations": [
+    "حلل المكونات بدل الاعتماد على الرقم وحده"
+  ],
+  "commonMistakes": [
+    "مقارنة OEE بين آلات بتعريفات مختلفة للوقت المخطط"
+  ],
+  "relatedKpiIds": [
+    "process-or-machine-downtime-level",
+    "capacity-utilisation-rate",
+    "first-pass-yield"
+  ],
+  "tags": [
+    "efficiency",
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 241,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

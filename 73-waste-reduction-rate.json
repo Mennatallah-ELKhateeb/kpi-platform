@@ -1,0 +1,65 @@
+{
+  "id": "waste-reduction-rate",
+  "originalNumber": 73,
+  "nameEn": "Waste reduction rate",
+  "nameAr": "معدل خفض النفايات",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "انخفاض النفايات مقارنةً بخط أساس.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نقلّل كمية النفايات التي ننتجها؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الخفض = (كمية الأساس − الكمية الحالية) ÷ كمية الأساس × 100%",
+    "type": "calculator",
+    "calculatorId": "wasteReduction",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "راعِ تغير حجم الإنتاج؛ فخفض النفايات بسبب تراجع الإنتاج لا يعني تحسنًا في كفاءة العملية. قارن النفايات لكل وحدة إنتاج عند الحاجة.",
+  "dataSources": [
+    "سجلات المخلفات والإنتاج",
+    "المشتريات والتصنيع"
+  ],
+  "measurementFrequency": null,
+  "factors": [
+    "حجم الإنتاج",
+    "تصميم العملية",
+    "تغير المواد"
+  ],
+  "limitations": [
+    "راعِ تغير حجم الإنتاج"
+  ],
+  "commonMistakes": [
+    "مقارنة كميات مطلقة عند تغير الإنتاج"
+  ],
+  "relatedKpiIds": [
+    "waste-recycling-rate",
+    "process-waste-level",
+    "savings-levels-due-to-conservation-and-improvement-efforts",
+    "product-recycling-rate"
+  ],
+  "tags": [
+    "environment"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": null,
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 333,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "تكرار القياس الموصى به في الكتاب لهذا المؤشر لم يُستخرج بوضوح من النص المتاح"
+  ]
+}

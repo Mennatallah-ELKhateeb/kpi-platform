@@ -1,0 +1,72 @@
+{
+  "id": "customer-engagement",
+  "originalNumber": 25,
+  "nameEn": "Customer engagement",
+  "nameAr": "تفاعل العملاء",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "مدى تفاعل العملاء مع الشركة وعروضها، وفق مقاييس تحددها المؤسسة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يتفاعل عملاؤنا مع مؤسستنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر أو مجموعة مقاييس محددة حسب القناة والهدف",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "أحداث التفاعل المعتمدة",
+      "القناة (تطبيق، موقع، رسائل…)",
+      "أوزان الأحداث",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "التفاعل لا يعني دائمًا شراءً أو ولاءً؛ اربطه بسلوك قابل للقياس مثل تكرار الشراء.",
+  "dataSources": [
+    "استبيانات تفاعل العملاء",
+    "نظام CRM",
+    "تحليلات الويب والتطبيق"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس ويُعرض عادةً سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "القناة وطريقة التحفيز",
+    "تعريف حدث التفاعل",
+    "موسمية الحملات"
+  ],
+  "limitations": [
+    "التفاعل لا يعني دائمًا شراءً أو ولاءً"
+  ],
+  "commonMistakes": [
+    "مكافأة عدد التفاعلات دون النظر إلى جودتها"
+  ],
+  "relatedKpiIds": [
+    "customer-online-engagement-level",
+    "customer-satisfaction-index",
+    "net-promoter-score"
+  ],
+  "tags": [
+    "customers",
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 117,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

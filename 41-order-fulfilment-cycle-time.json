@@ -1,0 +1,70 @@
+{
+  "id": "order-fulfilment-cycle-time",
+  "originalNumber": 41,
+  "nameEn": "Order fulfilment cycle time (OFCT)",
+  "nameAr": "زمن دورة تنفيذ الطلب",
+  "acronym": "OFCT",
+  "perspectiveId": "operations",
+  "summary": "الوقت من استلام الطلب إلى إتمامه عند نقطة نهاية محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى كفاءة عملياتنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "متوسط زمن الدورة = إجمالي أزمنة الطلبات ÷ عدد الطلبات (من الاستلام حتى نقطة النهاية المعتمدة)",
+    "type": "calculator",
+    "calculatorId": "orderCycleTime",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "المتوسط قد يخفي طلبات متأخرة جدًا؛ اعرض التوزيع (الوسيط، الأعلى 10%) إلى جانب المتوسط، وحلّل المراحل (التوريد، التصنيع، التسليم).",
+  "dataSources": [
+    "نظام الطلبات والمخزون والتسليم",
+    "تحليل خطوات عملية التنفيذ من البداية للنهاية"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن تسجيل البيانات عند كل طلب، وتتوقف دورة التقارير على الطلب الذي يجري تتبعه.",
+    "label": "book"
+  },
+  "factors": [
+    "نقطة البداية والنهاية المعتمدة",
+    "الشحنات الجزئية",
+    "عدد المراحل وتداخل الإدارات"
+  ],
+  "limitations": [
+    "حدد البداية والنهاية والشحنات الجزئية"
+  ],
+  "commonMistakes": [
+    "الاكتفاء بالمتوسط",
+    "تغيير نقطة النهاية بين الفترات"
+  ],
+  "relatedKpiIds": [
+    "delivery-in-full-on-time-rate",
+    "capacity-utilisation-rate",
+    "first-pass-yield",
+    "first-contact-resolution"
+  ],
+  "tags": [
+    "delivery",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 193,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الكتاب يعرض تحليل الزمن عبر مراحل فرعية؛ راجع الصيغة التفصيلية"
+  ]
+}

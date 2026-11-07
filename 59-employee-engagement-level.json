@@ -1,0 +1,69 @@
+{
+  "id": "employee-engagement-level",
+  "originalNumber": 59,
+  "nameEn": "Employee engagement level",
+  "nameAr": "مستوى اندماج الموظفين",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "مدى ارتباط الموظفين والتزامهم بتحقيق رؤية المؤسسة ورسالتها.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يلتزم موظفونا بتحقيق رؤية المؤسسة ورسالتها؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر استبياني أو مركب وفق نموذج محدد",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "النموذج المعتمد لقياس الاندماج",
+      "الأسئلة والمقياس",
+      "العينة وتكرارها",
+      "تحليل النتائج حسب الفريق"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "الاندماج ليس مرادفًا للرضا؛ فقد يكون الموظف راضيًا لكنه غير ملتزم بأهداف المؤسسة.",
+  "dataSources": [
+    "استبيان اندماج الموظفين الموزع على الموظفين"
+  ],
+  "measurementFrequency": {
+    "text": "يُنفَّذ عادةً سنويًا، لكن الأفضل أخذ عيّنة من القوى العاملة شهريًا بحيث يستلم كل فرد استبيانًا مرة سنويًا بينما تتوفر للمؤسسة بيانات صالحة كل شهر لرصد الاتجاهات.",
+    "label": "book"
+  },
+  "factors": [
+    "القيادة المباشرة",
+    "وضوح الأهداف",
+    "التغيرات التنظيمية"
+  ],
+  "limitations": [
+    "الاندماج ليس مرادفًا للرضا"
+  ],
+  "commonMistakes": [
+    "استخدام استبيان رضا على أنه استبيان اندماج"
+  ],
+  "relatedKpiIds": [
+    "employee-satisfaction-index",
+    "staff-advocacy-score",
+    "employee-churn-rate"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 269,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

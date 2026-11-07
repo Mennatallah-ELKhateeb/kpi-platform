@@ -1,0 +1,70 @@
+{
+  "id": "economic-value-added",
+  "originalNumber": 8,
+  "nameEn": "Economic value added (EVA)",
+  "nameAr": "القيمة الاقتصادية المضافة",
+  "acronym": "EVA",
+  "perspectiveId": "financial",
+  "summary": "مقياس يوضح هل يتجاوز العائد التشغيلي بعد الضريبة تكلفة رأس المال المستثمر.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في تحقيق قيمة للمساهمين؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "EVA (صيغة شائعة) = الربح التشغيلي بعد الضريبة − (رأس المال المستثمر × تكلفة رأس المال)",
+    "type": "calculator",
+    "calculatorId": "eva",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "قيمة موجبة تعني أن الشركة غطّت تكلفة رأس المال ثم حققت زيادة. النتيجة حساسة جدًا لافتراضات تكلفة رأس المال.",
+  "dataSources": [
+    "البيانات المالية",
+    "تقدير تكلفة رأس المال (WACC)"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب شهريًا حسب الكتاب، بينما يمكن تقدير WACC سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "تقدير تكلفة رأس المال",
+    "تعريف رأس المال المستثمر",
+    "تعديلات المحاسبة"
+  ],
+  "limitations": [
+    "حساس لافتراضات تكلفة رأس المال",
+    "توجد تعديلات محاسبية متعددة تغيّر النتيجة"
+  ],
+  "commonMistakes": [
+    "استخدام تكلفة رأس مال غير موثقة",
+    "مقارنته عبر شركات بافتراضات مختلفة"
+  ],
+  "relatedKpiIds": [
+    "return-on-capital-employed",
+    "return-on-investment",
+    "net-profit"
+  ],
+  "tags": [
+    "returns",
+    "capital"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 33,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الصيغة شائعة وليست الوحيدة؛ راجع تعريف الكتاب قبل التطبيق الرسمي"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "conversion-rate",
+  "originalNumber": 31,
+  "nameEn": "Conversion rate",
+  "nameAr": "معدل التحويل",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "نسبة من أكملوا الإجراء المطلوب (شراء، تسجيل…) من إجمالي المؤهلين لذلك.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى ننجح في تحويل العملاء المحتملين إلى عملاء فعليين؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل التحويل = عدد التحويلات ÷ عدد الزيارات (أو الأشخاص) المؤهلة × 100%",
+    "type": "calculator",
+    "calculatorId": "conversionRate",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "عرّف «التحويل» و«المقام» بوضوح: زيارات، زوار فريدون، أم عملاء محتملون؟ تغيير المقام يغيّر الرقم دون تغيير في الأداء.",
+  "dataSources": [
+    "تحليلات الويب",
+    "نظام CRM",
+    "بيانات المبيعات (للمتاجر)"
+  ],
+  "measurementFrequency": {
+    "text": "يُنصح بمراقبته بشكل مستمر.",
+    "label": "book"
+  },
+  "factors": [
+    "مصدر الزيارات",
+    "تجربة الموقع أو المتجر",
+    "السعر والعرض"
+  ],
+  "limitations": [
+    "عرّف التحويل والمقام"
+  ],
+  "commonMistakes": [
+    "مقارنة معدلات بمقامات مختلفة"
+  ],
+  "relatedKpiIds": [
+    "cost-per-lead",
+    "search-engine-rankings-and-click-through-rate",
+    "page-views-and-bounce-rates",
+    "customer-online-engagement-level"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 147,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

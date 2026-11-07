@@ -1,0 +1,63 @@
+{
+  "id": "working-capital-ratio",
+  "originalNumber": 15,
+  "nameEn": "Working capital ratio",
+  "nameAr": "نسبة رأس المال العامل (النسبة الجارية)",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "قدرة الأصول المتداولة على تغطية الالتزامات المتداولة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في إدارة تدفقاتنا النقدية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "النسبة الجارية = الأصول المتداولة ÷ الالتزامات المتداولة",
+    "type": "calculator",
+    "calculatorId": "workingCapitalRatio",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "نسبة أقل من 1 تعني أن الأصول المتداولة لا تغطي الالتزامات المتداولة كاملةً، لكن ارتفاع النسبة ليس دائمًا أفضل (قد يعكس مخزونًا راكدًا أو نقدًا غير مستثمر).",
+  "dataSources": [
+    "الميزانية العمومية"
+  ],
+  "measurementFrequency": {
+    "text": "تقيس المؤسسات رأس المال العامل عادةً مرة كل ربع سنة.",
+    "label": "book"
+  },
+  "factors": [
+    "جودة المخزون والمدينين",
+    "شروط السداد",
+    "موسمية النشاط"
+  ],
+  "limitations": [
+    "الارتفاع ليس دائمًا أفضل"
+  ],
+  "commonMistakes": [
+    "اعتبار أي نسبة مرتفعة علامة صحة مالية"
+  ],
+  "relatedKpiIds": [
+    "cash-conversion-cycle",
+    "debt-to-equity-ratio"
+  ],
+  "tags": [
+    "liquidity"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 67,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

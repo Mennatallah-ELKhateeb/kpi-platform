@@ -1,0 +1,66 @@
+{
+  "id": "cash-conversion-cycle",
+  "originalNumber": 14,
+  "nameEn": "Cash conversion cycle (CCC)",
+  "nameAr": "دورة التحويل النقدي",
+  "acronym": "CCC",
+  "perspectiveId": "financial",
+  "summary": "الوقت اللازم لتحويل الإنفاق التشغيلي (المخزون) إلى نقد محصَّل.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في الحفاظ على مركز نقدي سليم؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "CCC = أيام المخزون + أيام التحصيل − أيام السداد",
+    "type": "calculator",
+    "calculatorId": "ccc",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "كلما قصرت الدورة قلّ الوقت الذي تبقى فيه الأموال محتجزة في التشغيل، لكن تقصير أيام السداد لا يعني تحسنًا حقيقيًا؛ ادرس المكونات الثلاثة.",
+  "dataSources": [
+    "بيانات المخزون",
+    "المبيعات الآجلة (المدينون)",
+    "الحسابات الدائنة"
+  ],
+  "measurementFrequency": {
+    "text": "تقيسه المؤسسات عادةً سنويًا وقد تعرضه ربع سنويًا على أساس سنوي متحرك.",
+    "label": "book"
+  },
+  "factors": [
+    "سياسة الائتمان للعملاء",
+    "مستويات المخزون",
+    "شروط الدفع للموردين"
+  ],
+  "limitations": [
+    "استخدم فترات وتعريفات متوافقة للمكونات الثلاثة"
+  ],
+  "commonMistakes": [
+    "تحسين الرقم بتأجيل مدفوعات الموردين دون النظر إلى العلاقة معهم"
+  ],
+  "relatedKpiIds": [
+    "working-capital-ratio",
+    "debt-to-equity-ratio",
+    "ebitda"
+  ],
+  "tags": [
+    "liquidity"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 61,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

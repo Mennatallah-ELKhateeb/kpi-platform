@@ -1,0 +1,70 @@
+{
+  "id": "360-degree-feedback-score",
+  "originalNumber": 64,
+  "nameEn": "360-degree feedback score",
+  "nameAr": "نتيجة التغذية الراجعة 360 درجة",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "تقييم من مصادر متعددة حول أداء أو سلوك الموظف.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "كيف يُقيَّم أداء أفرادنا من وجهة نظر أصحاب المصلحة في أدائهم؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "يعتمد على أسئلة النموذج والأوزان ومقياس التقييم",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "فئات المقيّمين (مدير، أقران، مرؤوسون…)",
+      "الأسئلة والكفاءات",
+      "مقياس التقييم",
+      "أوزان الفئات",
+      "السرية"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "ليس بديلًا عن الحوار والتقييم المهني؛ استخدمه للتطوير لا كأداة وحيدة للقرارات.",
+  "dataSources": [
+    "مقيّمون يقدمون التغذية الراجعة (عبر استبيانات أو نظام تقييم الأداء)"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "اختيار المقيّمين",
+    "ثقافة الثقة",
+    "جودة النموذج"
+  ],
+  "limitations": [
+    "ليس بديلًا عن الحوار والتقييم المهني"
+  ],
+  "commonMistakes": [
+    "ربطه مباشرة بالمكافآت دون ضمانات"
+  ],
+  "relatedKpiIds": [
+    "employee-satisfaction-index",
+    "employee-engagement-level",
+    "training-return-on-investment"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 289,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

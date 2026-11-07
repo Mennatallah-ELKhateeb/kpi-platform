@@ -1,0 +1,65 @@
+{
+  "id": "employee-churn-rate",
+  "originalNumber": 61,
+  "nameEn": "Employee churn rate",
+  "nameAr": "معدل دوران الموظفين",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "نسبة المغادرين من الموظفين خلال فترة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في الاحتفاظ بموظفينا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الدوران = عدد المغادرين ÷ متوسط عدد الموظفين × 100%",
+    "type": "calculator",
+    "calculatorId": "employeeChurn",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ميّز المغادرة الطوعية وغير الطوعية، وحلّل حسب القسم والأقدمية. دوران منخفض جدًا ليس دائمًا إيجابيًا.",
+  "dataSources": [
+    "سجلات الموارد البشرية"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياسه لأي فترة، ومن الشائع جمعه شهريًا وتحليله من الموارد البشرية، وقد يُعرض سنويًا للإدارة التنفيذية لتفسيره في ضوء عوامل اقتصادية وتنافسية أوسع.",
+    "label": "book"
+  },
+  "factors": [
+    "سوق العمل",
+    "الأجور وفرص التطور",
+    "القيادة المباشرة"
+  ],
+  "limitations": [
+    "ميّز المغادرة الطوعية وغير الطوعية"
+  ],
+  "commonMistakes": [
+    "استخدام عدد الموظفين في بداية الفترة فقط عند تغير الحجم كثيرًا"
+  ],
+  "relatedKpiIds": [
+    "average-employee-tenure",
+    "employee-satisfaction-index",
+    "employee-engagement-level",
+    "salary-competitiveness-ratio"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 277,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

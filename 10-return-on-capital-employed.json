@@ -1,0 +1,68 @@
+{
+  "id": "return-on-capital-employed",
+  "originalNumber": 10,
+  "nameEn": "Return on capital employed (ROCE)",
+  "nameAr": "العائد على رأس المال المستخدم",
+  "acronym": "ROCE",
+  "perspectiveId": "financial",
+  "summary": "مقارنة الربح التشغيلي برأس المال المستخدم في تشغيل النشاط.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى ننتج عوائد من رؤوس الأموال المستثمرة؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ROCE = الربح التشغيلي ÷ رأس المال المستخدم × 100%",
+    "type": "calculator",
+    "calculatorId": "roce",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يوضح كفاءة استخدام رأس المال في توليد ربح تشغيلي. تعريف «رأس المال المستخدم» يختلف، فثبّته قبل المقارنة.",
+  "dataSources": [
+    "قائمة الدخل",
+    "الميزانية العمومية"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً على أساس سنوي.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف رأس المال المستخدم",
+    "كثافة الأصول في الصناعة",
+    "الربح التشغيلي"
+  ],
+  "limitations": [
+    "تعريف رأس المال المستخدم يختلف"
+  ],
+  "commonMistakes": [
+    "الخلط بينه وبين ROA أو ROE",
+    "مقارنة شركات بصناعات مختلفة"
+  ],
+  "relatedKpiIds": [
+    "return-on-investment",
+    "return-on-assets",
+    "return-on-equity",
+    "economic-value-added"
+  ],
+  "tags": [
+    "returns",
+    "capital"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 45,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

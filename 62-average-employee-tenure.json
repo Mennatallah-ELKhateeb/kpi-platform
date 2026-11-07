@@ -1,0 +1,63 @@
+{
+  "id": "average-employee-tenure",
+  "originalNumber": 62,
+  "nameEn": "Average employee tenure",
+  "nameAr": "متوسط مدة خدمة الموظفين",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "متوسط مدة عمل الموظفين في المؤسسة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يبقى موظفونا أوفياء لشركتنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "متوسط المدة = مجموع سنوات خدمة الموظفين ÷ عددهم",
+    "type": "calculator",
+    "calculatorId": "averageTenure",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "المتوسط قد يخفي فروقًا كبيرة بين الأقسام والفئات؛ اعرضه مع توزيع المدد.",
+  "dataSources": [
+    "نظام الموارد البشرية"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس سنويًا أو كل ستة أشهر.",
+    "label": "book"
+  },
+  "factors": [
+    "سياسة التوظيف والنمو",
+    "سوق العمل",
+    "هيكل الأقسام"
+  ],
+  "limitations": [
+    "المتوسط قد يخفي فروقًا بين الأقسام"
+  ],
+  "commonMistakes": [
+    "اعتبار المدة الأطول أفضل دائمًا"
+  ],
+  "relatedKpiIds": [
+    "employee-churn-rate",
+    "employee-satisfaction-index"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 281,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

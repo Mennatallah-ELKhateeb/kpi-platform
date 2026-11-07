@@ -1,0 +1,64 @@
+{
+  "id": "absenteeism-bradford-factor",
+  "originalNumber": 63,
+  "nameEn": "Absenteeism Bradford factor",
+  "nameAr": "عامل برادفورد للغياب",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "مقياس يبرز تكرار فترات الغياب ومدتها معًا.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يمثل الغياب غير المصرح به مشكلة في أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "عامل برادفورد = S² × D (S عدد فترات الغياب، D مجموع أيام الغياب)",
+    "type": "calculator",
+    "calculatorId": "bradford",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يعطي وزنًا أكبر للغيابات المتكررة القصيرة. استخدمه بحذر ووفق سياسة عادلة وقوانين العمل المحلية.",
+  "dataSources": [
+    "سجلات الحضور والغياب في نظام الموارد البشرية"
+  ],
+  "measurementFrequency": {
+    "text": "من المنطقي حسابه سنويًا (سنة تقويمية أو 12 شهرًا متحركة)، وقد تقيسه بعض الشركات ربع سنويًا أو شهريًا لاكتشاف المشكلات مبكرًا ومتابعة أهداف خفض الغياب.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف فترة الغياب",
+    "أسباب الغياب (مرض، إجازة…)",
+    "السياسات واللوائح"
+  ],
+  "limitations": [
+    "استخدمه بحذر ووفق سياسة عادلة وقوانين العمل"
+  ],
+  "commonMistakes": [
+    "استخدام الرقم وحده للمساءلة التأديبية"
+  ],
+  "relatedKpiIds": [
+    "employee-churn-rate",
+    "employee-satisfaction-index",
+    "employee-engagement-level"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 285,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

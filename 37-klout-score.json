@@ -1,0 +1,69 @@
+{
+  "id": "klout-score",
+  "originalNumber": 37,
+  "nameEn": "Klout score",
+  "nameAr": "درجة Klout",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "مؤشر تاريخي لقياس التأثير في وسائل التواصل عبر خدمة Klout.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نملك تأثيرًا في وسائل التواصل والفضاء الإلكتروني؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "لا توجد صيغة حالية موصى بها لهذا المؤشر في هذا المرجع",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "حالة الخدمة وتوافر البيانات",
+      "البدائل الحالية لقياس التأثير",
+      "المنصات المشمولة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "يُعرض هنا لأنه ضمن فهرس الكتاب الأصلي؛ لا يُعامل كمعيار حديث قبل التحقق من توافر الخدمة وبدائلها.",
+  "dataSources": [
+    "تاريخيًا: بيانات المنصات وخدمة Klout"
+  ],
+  "measurementFrequency": {
+    "text": "يشير الكتاب إلى أن القياس يكون مستمرًا بعد التسجيل، وأن العرض الشهري منطقي (وصف تاريخي لخدمة كانت متاحة وقت النشر).",
+    "label": "book"
+  },
+  "factors": [
+    "استمرارية الخدمة",
+    "طريقة احتساب الدرجة"
+  ],
+  "limitations": [
+    "مؤشر تاريخي يحتاج تحقق من استمرار الخدمة"
+  ],
+  "commonMistakes": [
+    "الاعتماد عليه كمعيار حديث دون التحقق"
+  ],
+  "relatedKpiIds": [
+    "social-networking-footprint",
+    "online-share-of-voice",
+    "customer-online-engagement-level"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 175,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "يحتاج إلى تحقق: هل ما زالت الخدمة متاحة؟ وما البدائل الحالية؟"
+  ]
+}

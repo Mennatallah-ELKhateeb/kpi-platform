@@ -1,0 +1,66 @@
+{
+  "id": "customer-turnover-rate",
+  "originalNumber": 24,
+  "nameEn": "Customer turnover rate",
+  "nameAr": "معدل فقدان العملاء",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "نسبة العملاء الذين توقفوا عن التعامل مع الشركة خلال فترة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في الاحتفاظ بالعملاء؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الفقدان = العملاء المفقودون ÷ العملاء في بداية الفترة × 100%",
+    "type": "calculator",
+    "calculatorId": "customerTurnover",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يُقرأ مع معدل الاحتفاظ بنفس التعريف والفترة. عرّف متى يُعدّ العميل «مفقودًا» (مثلًا بعد مدة دون شراء).",
+  "dataSources": [
+    "سجلات CRM",
+    "عقود غير مجددة",
+    "سجلات المعاملات"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً شهريًا أو ربع سنويًا بحسب القطاع؛ والقطاعات التي يسهل فيها انتقال العملاء (كالاتصالات) تحتاج قياسًا أكثر تكرارًا.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف العميل المفقود",
+    "منافسة السوق",
+    "جودة الخدمة"
+  ],
+  "limitations": [
+    "يجب تعريف متى يُعتبر العميل مفقودًا"
+  ],
+  "commonMistakes": [
+    "اعتبار 100% − الاحتفاظ هو الفقدان عند اختلاف التعريف أو إدراج عملاء جدد"
+  ],
+  "relatedKpiIds": [
+    "customer-retention-rate",
+    "customer-complaints",
+    "customer-satisfaction-index"
+  ],
+  "tags": [
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 113,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "social-networking-footprint",
+  "originalNumber": 36,
+  "nameEn": "Social networking footprint",
+  "nameAr": "البصمة على الشبكات الاجتماعية",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "حجم الحضور والنشاط عبر منصات التواصل الاجتماعي.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في استخدام الإنترنت لبناء علامتنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مجموعة مقاييس أو مؤشر مركب؛ لا توجد صيغة موحدة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "المنصات المشمولة",
+      "مقاييس الحجم (متابعون…)",
+      "مقاييس النشاط (تفاعل، مشاركة…)",
+      "الأوزان",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "عدد المتابعين لا يساوي تفاعلًا أو مبيعات؛ اقرأ مؤشرات الحجم مع مؤشرات النشاط والنتائج.",
+  "dataSources": [
+    "تحليلات المنصات",
+    "أدوات الرصد"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن جمع البيانات بشكل مستمر لكن يُرجَّح عرضها شهريًا داخل التسويق وربع سنويًا لفرق الإدارة.",
+    "label": "book"
+  },
+  "factors": [
+    "المنصة وجمهورها",
+    "وتيرة النشر",
+    "الإعلانات المدفوعة"
+  ],
+  "limitations": [
+    "عدد المتابعين لا يساوي تفاعلًا أو مبيعات"
+  ],
+  "commonMistakes": [
+    "الاكتفاء بعدد المتابعين"
+  ],
+  "relatedKpiIds": [
+    "customer-online-engagement-level",
+    "online-share-of-voice",
+    "klout-score",
+    "brand-equity"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 169,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

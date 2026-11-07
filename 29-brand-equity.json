@@ -1,0 +1,73 @@
+{
+  "id": "brand-equity",
+  "originalNumber": 29,
+  "nameEn": "Brand equity",
+  "nameAr": "قيمة / قوة العلامة التجارية",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "القيمة التي تضيفها العلامة التجارية في السوق وفي نظر العملاء.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تقود العلامة التجارية قيمة أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر متعدد الأبعاد أو تقييم مالي؛ لا توجد صيغة عامة واحدة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "أبعاد الإدراك المعتمدة (معرفة، ثقة، تفضيل…)",
+      "مصدر البيانات (استبيان/تقييم مالي)",
+      "المقارنة بالمنافسين",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "وثّق نموذج القياس المستخدم؛ فاختلاف النموذج يعني أرقامًا غير قابلة للمقارنة.",
+  "dataSources": [
+    "أبحاث السوق",
+    "المبيعات",
+    "التقييمات"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس إدراك العلامة عادةً بشكل مستمر، خاصةً في المؤسسات الكبيرة متعددة المنتجات.",
+    "label": "book"
+  },
+  "factors": [
+    "نموذج القياس",
+    "الحملات التسويقية",
+    "تجربة العملاء"
+  ],
+  "limitations": [
+    "لا توجد صيغة عامة واحدة"
+  ],
+  "commonMistakes": [
+    "مقارنة تقييمات بنماذج مختلفة"
+  ],
+  "relatedKpiIds": [
+    "relative-market-share",
+    "online-share-of-voice",
+    "social-networking-footprint",
+    "net-promoter-score"
+  ],
+  "tags": [
+    "market",
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 139,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

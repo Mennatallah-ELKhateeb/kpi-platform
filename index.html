@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مرصد المؤشرات — 75 مؤشر أداء رئيسي</title>
+  <meta name="description" content="منصة عربية تفاعلية لفهم 75 مؤشر أداء رئيسي (KPI) وحسابها وتفسيرها، مبنية على تصنيف Bernard Marr (2012) مع إضافات تعليمية موسومة بوضوح." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="app.css" />
+  <script>
+    // Apply the saved theme before first paint to avoid a flash. Storage can throw (private mode), so guard it.
+    try {
+      var t = localStorage.getItem('kpi.theme');
+      if (!t) t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+  <div id="root"></div>
+  <noscript><p style="padding:2rem;font-family:sans-serif">هذه المنصة تحتاج إلى تفعيل JavaScript لتعمل.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>

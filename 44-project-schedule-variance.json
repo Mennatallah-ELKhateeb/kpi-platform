@@ -1,0 +1,66 @@
+{
+  "id": "project-schedule-variance",
+  "originalNumber": 44,
+  "nameEn": "Project schedule variance (PSV)",
+  "nameAr": "انحراف الجدول الزمني للمشروع",
+  "acronym": "PSV",
+  "perspectiveId": "operations",
+  "summary": "مدى اختلاف تقدم المشروع عن الخطة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تُسلَّم مشروعاتنا في موعدها؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "انحراف الجدول (بالقيمة المكتسبة) = القيمة المكتسبة EV − القيمة المخططة PV",
+    "type": "calculator",
+    "calculatorId": "scheduleVariance",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "قيمة سالبة تعني أن العمل المنجز أقل من المخطط حتى تاريخ القياس، وموجبة تعني العكس. قد تستخدم المؤسسة فرقًا زمنيًا بالأيام بدلًا من الفرق المالي.",
+  "dataSources": [
+    "برنامج إدارة المشروعات أو السجلات اليدوية",
+    "خطة المشروع"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً شهريًا، ويمكن متابعته بتكرار أعلى للمشروعات القصيرة المهمة.",
+    "label": "book"
+  },
+  "factors": [
+    "جودة الخطة الأساسية",
+    "تغيرات النطاق",
+    "توافر الموارد"
+  ],
+  "limitations": [
+    "لا تخلط فرق الأيام بالفرق المالي"
+  ],
+  "commonMistakes": [
+    "مقارنة مشروعات بخطوط أساس مختلفة"
+  ],
+  "relatedKpiIds": [
+    "project-cost-variance",
+    "earned-value-metric"
+  ],
+  "tags": [
+    "projects"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 205,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "تعريف الانحراف (بالقيمة أو بالزمن) يختلف؛ وثّق ما تعتمده"
+  ]
+}

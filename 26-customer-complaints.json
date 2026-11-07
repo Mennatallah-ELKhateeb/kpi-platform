@@ -1,0 +1,69 @@
+{
+  "id": "customer-complaints",
+  "originalNumber": 26,
+  "nameEn": "Customer complaints",
+  "nameAr": "شكاوى العملاء",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "حجم الشكاوى وأنواعها واتجاهها.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نُرضي عملاءنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الشكاوى = عدد الشكاوى ÷ عدد الطلبات (أو العملاء) × 1,000",
+    "type": "calculator",
+    "calculatorId": "complaintsRate",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ارتفاع الشكاوى المسجلة قد يعني تدهور الخدمة، وقد يعني فقط سهولة أكبر في الإبلاغ؛ صنّف الشكاوى حسب السبب قبل الحكم.",
+  "dataSources": [
+    "نظام الشكاوى",
+    "خدمة العملاء"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن جمع بيانات الشكاوى بشكل مستمر (عبر وحدة مخصصة) أو بشكل متقطع (كاستبيانات الرضا).",
+    "label": "book"
+  },
+  "factors": [
+    "سهولة قنوات الشكوى",
+    "جودة المنتج والتسليم",
+    "حجم الطلبات"
+  ],
+  "limitations": [
+    "زيادة التسجيل قد تعكس سهولة الإبلاغ"
+  ],
+  "commonMistakes": [
+    "الاكتفاء بالعدد الإجمالي دون ربطه بحجم النشاط"
+  ],
+  "relatedKpiIds": [
+    "customer-satisfaction-index",
+    "customer-turnover-rate",
+    "net-promoter-score",
+    "first-contact-resolution"
+  ],
+  "tags": [
+    "customers",
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 121,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "مقام المعدل (طلبات أم عملاء) ووحدة 1,000 اختيار تطبيقي لا نص الكتاب"
+  ]
+}

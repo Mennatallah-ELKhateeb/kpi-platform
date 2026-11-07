@@ -1,0 +1,67 @@
+{
+  "id": "process-waste-level",
+  "originalNumber": 40,
+  "nameEn": "Process waste level",
+  "nameAr": "مستوى هدر العملية",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "مقدار الموارد أو المخرجات المهدرة في عملية محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تتصف عملياتنا بالرشاقة والفعالية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "نسبة الهدر = كمية الهدر ÷ إجمالي الكمية (أو التكلفة) × 100% وفق تعريف ثابت",
+    "type": "calculator",
+    "calculatorId": "wasteLevel",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "حدّد نوع الهدر ووحدته (وحدات، وقت، تكلفة) لأن الخلط بينها يجعل المقارنة بلا معنى.",
+  "dataSources": [
+    "سجلات الإنتاج والجودة والمواد",
+    "العدّ اليدوي وتقييم العمليات"
+  ],
+  "measurementFrequency": {
+    "text": "يتبع القياس مبادرة تحسين رشيقة (Lean) تُحدَّد فيها العمليات الرئيسية وتُحلَّل، ونادرًا ما يُقاس بعدها على فترات منتظمة.",
+    "label": "book"
+  },
+  "factors": [
+    "نوع الهدر",
+    "تصميم العملية",
+    "جودة المواد"
+  ],
+  "limitations": [
+    "حدد نوع الهدر ووحدته"
+  ],
+  "commonMistakes": [
+    "جمع أنواع هدر مختلفة في رقم واحد"
+  ],
+  "relatedKpiIds": [
+    "rework-level",
+    "first-pass-yield",
+    "six-sigma-level",
+    "waste-reduction-rate"
+  ],
+  "tags": [
+    "efficiency",
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 189,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

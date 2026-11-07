@@ -1,0 +1,66 @@
+{
+  "id": "price-earnings-ratio",
+  "originalNumber": 18,
+  "nameEn": "Price/earnings ratio (P/E ratio)",
+  "nameAr": "مكرر الربحية",
+  "acronym": "P/E",
+  "perspectiveId": "financial",
+  "summary": "سعر السهم مقارنةً بربحية السهم.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يبدو سعر السهم الحالي جذابًا للمستثمرين؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "P/E = سعر السهم ÷ ربحية السهم",
+    "type": "calculator",
+    "calculatorId": "priceEarnings",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يوضح كم يدفع المستثمر مقابل كل وحدة ربح للسهم. قد لا يكون مفيدًا عندما تكون الأرباح سالبة أو شبه معدومة.",
+  "dataSources": [
+    "أسعار السوق",
+    "البيانات المالية (ربحية السهم)"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً ربع سنويًا أو سنويًا بعد صدور تقرير الأرباح.",
+    "label": "book"
+  },
+  "factors": [
+    "توقعات السوق",
+    "نمو الأرباح",
+    "تقلب سعر السهم"
+  ],
+  "limitations": [
+    "قد لا يكون مفيدًا عند الأرباح السالبة",
+    "يعتمد على سعر السوق المتقلب"
+  ],
+  "commonMistakes": [
+    "اعتبار النسبة المنخفضة دليلًا على «رخص» السهم دون تحليل"
+  ],
+  "relatedKpiIds": [
+    "total-shareholder-return",
+    "return-on-equity"
+  ],
+  "tags": [
+    "capital",
+    "returns"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 79,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

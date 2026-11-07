@@ -1,0 +1,71 @@
+{
+  "id": "return-on-investment",
+  "originalNumber": 9,
+  "nameEn": "Return on investment (ROI)",
+  "nameAr": "العائد على الاستثمار",
+  "acronym": "ROI",
+  "perspectiveId": "financial",
+  "summary": "مقارنة العائد المتحقق من استثمار محدد بتكلفة هذا الاستثمار.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في تحقيق أرباح مستدامة؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ROI (صيغة شائعة) = صافي العائد ÷ تكلفة الاستثمار × 100%",
+    "type": "calculator",
+    "calculatorId": "roi",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ROI يقارن عائدًا بتكلفة، لكن الصيغة تختلف بين الاستخدامات؛ وثّق ما تعدّه «عائدًا» وما تعدّه «تكلفة».",
+  "dataSources": [
+    "بيانات المشروع أو الحملة",
+    "التكاليف والعوائد"
+  ],
+  "measurementFrequency": {
+    "text": "قد يُقاس في نهاية برنامج (كحملة تسويقية) عندما تكون التكاليف والعوائد معروفة، أو كنسبة عائد على مدى سنة للمشروعات الأطول.",
+    "label": "book"
+  },
+  "factors": [
+    "اكتمال حصر التكاليف والعوائد",
+    "الفترة الزمنية للقياس",
+    "نسب العائد المنسوب للاستثمار"
+  ],
+  "limitations": [
+    "تختلف الصيغة؛ وثّق التعريف",
+    "لا يراعي المخاطر ولا توقيت العوائد"
+  ],
+  "commonMistakes": [
+    "مقارنة استثمارات بفترات مختلفة",
+    "نسب أرباح غير مرتبطة بالاستثمار نفسه"
+  ],
+  "relatedKpiIds": [
+    "return-on-capital-employed",
+    "return-on-assets",
+    "return-on-equity",
+    "return-on-innovation-investment",
+    "training-return-on-investment"
+  ],
+  "tags": [
+    "returns"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 39,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الصيغ المتعددة لـROI؛ تأكد من الصيغة المقصودة في كل سياق"
+  ]
+}

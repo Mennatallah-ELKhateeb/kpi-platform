@@ -1,0 +1,67 @@
+{
+  "id": "rework-level",
+  "originalNumber": 51,
+  "nameEn": "Rework level",
+  "nameAr": "مستوى إعادة العمل",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "حجم العمل الذي احتاج إلى تصحيح أو إعادة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى فاعليتنا في إزالة الهدر من عملياتنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مستوى إعادة العمل = وحدات (أو ساعات أو تكلفة) إعادة العمل ÷ المقام المحدد × 100%",
+    "type": "calculator",
+    "calculatorId": "reworkLevel",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ميّز إعادة العمل عن الإصلاح والصيانة. يُقرأ مع معدل النجاح من أول مرة؛ فهما وجهان لنفس الظاهرة لكن بتعريفين مختلفين.",
+  "dataSources": [
+    "سجلات الجودة والإنتاج",
+    "العملية التي تنتج المنتج أو العميل الذي يستهلكه"
+  ],
+  "measurementFrequency": {
+    "text": "يختلف بحسب الصناعة وضغط العملاء: قد تقيسه شركات التصنيع أسبوعيًا على الأقل، وشركات الخدمات شهريًا، والمؤسسات غير الربحية شهريًا أو ربع سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف إعادة العمل",
+    "الوحدة المختارة (وحدات/ساعات/تكلفة)",
+    "جودة المدخلات"
+  ],
+  "limitations": [
+    "ميّز إعادة العمل عن الإصلاح والصيانة"
+  ],
+  "commonMistakes": [
+    "مقارنة نسب محسوبة بوحدات مختلفة (وحدات مقابل ساعات)"
+  ],
+  "relatedKpiIds": [
+    "first-pass-yield",
+    "process-waste-level",
+    "six-sigma-level",
+    "quality-index"
+  ],
+  "tags": [
+    "quality",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 233,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "supply-chain-miles",
+  "originalNumber": 72,
+  "nameEn": "Supply chain miles",
+  "nameAr": "مسافات سلسلة الإمداد",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "المسافة التي تقطعها المواد أو المنتجات عبر سلسلة الإمداد.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نقلّل الأثر البيئي لأعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مسافة النقل حسب الشحنة أو الكمية، بوحدة محددة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "مواقع الموردين والعملاء",
+      "المسافة لكل شحنة",
+      "كمية أو وزن كل شحنة",
+      "وسيلة النقل",
+      "وحدة المسافة (كم/ميل)"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "المسافة وحدها لا تحدد الانبعاثات؛ فوسيلة النقل وحمولتها تغيّر الأثر كثيرًا.",
+  "dataSources": [
+    "بيانات الموردين والعملاء",
+    "قواعد بيانات المبيعات والمشتريات",
+    "بيانات الشحن والنقل"
+  ],
+  "measurementFrequency": null,
+  "factors": [
+    "وسيلة النقل",
+    "الحمولة",
+    "اختيار الموردين"
+  ],
+  "limitations": [
+    "المسافة وحدها لا تحدد الانبعاثات"
+  ],
+  "commonMistakes": [
+    "الاكتفاء بالمسافة دون وسيلة النقل والحمولة"
+  ],
+  "relatedKpiIds": [
+    "carbon-footprint",
+    "energy-consumption",
+    "waste-reduction-rate"
+  ],
+  "tags": [
+    "environment",
+    "delivery"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": null,
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 329,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "تكرار القياس الموصى به في الكتاب لهذا المؤشر لم يُستخرج بوضوح من النص المتاح"
+  ]
+}

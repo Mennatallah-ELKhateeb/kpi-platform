@@ -1,0 +1,69 @@
+{
+  "id": "net-profit-margin",
+  "originalNumber": 2,
+  "nameEn": "Net profit margin",
+  "nameAr": "هامش صافي الربح",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "نسبة صافي الربح إلى الإيرادات؛ توضح كم يتبقى من كل جنيه إيرادات كصافي ربح.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "كم من الربح نحققه عن كل وحدة نقدية من المبيعات؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "هامش صافي الربح = صافي الربح ÷ الإيرادات × 100%",
+    "type": "calculator",
+    "calculatorId": "netProfitMargin",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "ارتفاع الهامش يعني أن نسبة أكبر من الإيرادات تتحول إلى ربح، لكن التفسير يحتاج سياق النشاط. ولا يوجد مستهدف واحد يناسب كل الصناعات.",
+  "dataSources": [
+    "قائمة الدخل",
+    "بيانات المحاسبة (الإيرادات وصافي الربح)"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً كل شهر ضمن إعداد قائمة الدخل.",
+    "label": "book"
+  },
+  "factors": [
+    "التسعير والخصومات",
+    "تكلفة المبيعات والمصروفات التشغيلية",
+    "مزيج المنتجات والعملاء",
+    "مصروفات التمويل والضرائب"
+  ],
+  "limitations": [
+    "لا يوجد مستهدف واحد لكل الصناعات",
+    "يجب أن يكون صافي الربح والإيرادات لنفس الفترة وبنفس التعريف المحاسبي"
+  ],
+  "commonMistakes": [
+    "افتراض أن ارتفاع الهامش جيد دائمًا دون النظر إلى أثره على المبيعات والعملاء",
+    "مقارنة شركات بتعريفات محاسبية مختلفة"
+  ],
+  "relatedKpiIds": [
+    "net-profit",
+    "gross-profit-margin",
+    "operating-profit-margin",
+    "operating-expense-ratio"
+  ],
+  "tags": [
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 9,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

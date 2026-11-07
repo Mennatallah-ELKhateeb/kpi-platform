@@ -1,0 +1,72 @@
+{
+  "id": "delivery-in-full-on-time-rate",
+  "originalNumber": 42,
+  "nameEn": "Delivery in full, on time (DIFOT) rate",
+  "nameAr": "معدل التسليم كاملًا وفي الموعد",
+  "acronym": "DIFOT",
+  "perspectiveId": "operations",
+  "summary": "نسبة الطلبات المسلَّمة كاملةً وفي الموعد من إجمالي الطلبات المشحونة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما نسبة طلباتنا التي تصل العميل كاملةً وفي موعدها؟",
+    "label": "applied"
+  },
+  "formula": {
+    "display": "DIFOT = الطلبات المسلَّمة كاملةً وفي الموعد ÷ إجمالي الطلبات المشحونة × 100%",
+    "type": "calculator",
+    "calculatorId": "difot",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يقيس ما يراه العميل فعليًا: هل وصل الطلب كاملًا وفي موعده؟ حدّد الموعد المرجعي (الأصلي أم المعدّل) ومعنى «كامل» قبل القياس.",
+  "dataSources": [
+    "أوامر العملاء",
+    "نظام تتبع الطلبات والشحن",
+    "إثبات التسليم (وأحيانًا استبيانات العملاء)"
+  ],
+  "measurementFrequency": {
+    "text": "الأفضل قياسه باستمرار لكل عملية تسليم؛ وإذا كان جمع البيانات آليًا فلا توجد صعوبة.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف الموعد المرجعي",
+    "تعريف «كامل» (كمية/أصناف)",
+    "أداء شركاء الشحن"
+  ],
+  "limitations": [
+    "حدد الموعد المرجعي ومعنى «كامل»",
+    "صعوبة تتبع التسليم الأخير عند الاعتماد على أطراف ثالثة"
+  ],
+  "commonMistakes": [
+    "قياس موعد الشحن بدل وصول الطلب للعميل",
+    "عدّ التسليم الجزئي كاملًا"
+  ],
+  "relatedKpiIds": [
+    "order-fulfilment-cycle-time",
+    "inventory-shrinkage-rate",
+    "capacity-utilisation-rate",
+    "customer-complaints"
+  ],
+  "tags": [
+    "delivery",
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "applied",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 197,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "سؤال الأداء الرئيسي لهذا المؤشر لم يُستخرج من النص المتاح؛ الصياغة تطبيقية وتحتاج مراجعة مع الكتاب"
+  ]
+}

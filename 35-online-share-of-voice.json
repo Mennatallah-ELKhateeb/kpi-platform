@@ -1,0 +1,68 @@
+{
+  "id": "online-share-of-voice",
+  "originalNumber": 35,
+  "nameEn": "Online share of voice (OSOV)",
+  "nameAr": "حصة الصوت على الإنترنت",
+  "acronym": "OSOV",
+  "perspectiveId": "marketing",
+  "summary": "نصيب العلامة من الذكر الرقمي ضمن مجموعة محددة من المنافسين.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى وبأي نبرة يُتحدَّث عن علامتنا مقارنةً بمنافسينا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "OSOV = إشارات العلامة ÷ إجمالي الإشارات في المجموعة × 100%",
+    "type": "calculator",
+    "calculatorId": "onlineShareOfVoice",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "النسبة تعتمد على قائمة المنافسين والكلمات المرصودة؛ ولا تعكس وحدها نبرة الحديث (إيجابي/سلبي).",
+  "dataSources": [
+    "أدوات رصد العلامات على المنصات"
+  ],
+  "measurementFrequency": {
+    "text": "يجري الرصد بشكل يومي بتنبيهات (مثل الإشارات السلبية)، لكن العرض الاستراتيجي يكون أسبوعيًا أو شهريًا، مع زيادة التكرار عند إطلاق منتج.",
+    "label": "book"
+  },
+  "factors": [
+    "الكلمات والمنصات المرصودة",
+    "قائمة المنافسين",
+    "الحملات الجارية"
+  ],
+  "limitations": [
+    "تتأثر بالكلمات ومصادر الرصد"
+  ],
+  "commonMistakes": [
+    "عدّ كل ذكر كإشارة إيجابية"
+  ],
+  "relatedKpiIds": [
+    "brand-equity",
+    "social-networking-footprint",
+    "klout-score",
+    "customer-online-engagement-level"
+  ],
+  "tags": [
+    "marketing",
+    "market"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 165,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "تعريف الصيغة بنسبة الإشارات هو الصيغة الشائعة؛ راجع تفاصيل الكتاب"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "return-on-equity",
+  "originalNumber": 12,
+  "nameEn": "Return on equity (ROE)",
+  "nameAr": "العائد على حقوق الملكية",
+  "acronym": "ROE",
+  "perspectiveId": "financial",
+  "summary": "مقدار الربح الناتج مقارنةً بحقوق المساهمين.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى كفاءتنا في استخدام استثمارات المساهمين لتوليد الأرباح؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ROE (شائع) = صافي الربح ÷ متوسط حقوق الملكية × 100%",
+    "type": "calculator",
+    "calculatorId": "roe",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "قد يرتفع ROE بسبب الرفع المالي (زيادة الاعتماد على الدين) لا بسبب تحسن العمليات، فاقرأه مع نسبة الدين إلى حقوق الملكية.",
+  "dataSources": [
+    "قائمة الدخل",
+    "الميزانية العمومية"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب عادةً سنويًا ويُعرض ربع سنويًا على أساس متحرك.",
+    "label": "book"
+  },
+  "factors": [
+    "مستوى الدين",
+    "صافي الربح",
+    "توزيعات الأرباح والاحتياطيات"
+  ],
+  "limitations": [
+    "قد يرتفع بسبب الرفع المالي"
+  ],
+  "commonMistakes": [
+    "قراءة ROE دون مراجعة الدين",
+    "استخدام حقوق ملكية سالبة أو صغيرة جدًا دون حذر"
+  ],
+  "relatedKpiIds": [
+    "return-on-assets",
+    "debt-to-equity-ratio",
+    "return-on-capital-employed",
+    "total-shareholder-return"
+  ],
+  "tags": [
+    "returns",
+    "capital"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 53,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

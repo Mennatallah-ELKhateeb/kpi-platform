@@ -1,0 +1,67 @@
+{
+  "id": "operating-profit-margin",
+  "originalNumber": 4,
+  "nameEn": "Operating profit margin",
+  "nameAr": "هامش الربح التشغيلي",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "نسبة الربح التشغيلي إلى الإيرادات؛ تعكس ربحية العمليات الأساسية قبل بعض البنود غير التشغيلية.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى ندير أعمالنا بكفاءة؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "هامش الربح التشغيلي = الربح التشغيلي ÷ الإيرادات × 100%",
+    "type": "calculator",
+    "calculatorId": "operatingMargin",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يساعد على فهم كفاءة العمليات الأساسية. تحسنه مع ثبات المصروفات التشغيلية قد يشير إلى كفاءة أفضل، لكن لا بد من مراجعة بنود المصروفات.",
+  "dataSources": [
+    "قائمة الدخل",
+    "البيانات المحاسبية"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب عادةً شهريًا أو ربع سنويًا ضمن دورة التقارير الإدارية.",
+    "label": "book"
+  },
+  "factors": [
+    "المصروفات التشغيلية",
+    "حجم الإيرادات",
+    "تصنيف البنود التشغيلية وغير التشغيلية"
+  ],
+  "limitations": [
+    "يتطلب توثيق تعريف «الربح التشغيلي» لأن اختلاف البنود يغيّر المقارنة"
+  ],
+  "commonMistakes": [
+    "مقارنة شركات تعرّف الربح التشغيلي بشكل مختلف"
+  ],
+  "relatedKpiIds": [
+    "net-profit-margin",
+    "gross-profit-margin",
+    "ebitda",
+    "operating-expense-ratio"
+  ],
+  "tags": [
+    "profitability",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 17,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

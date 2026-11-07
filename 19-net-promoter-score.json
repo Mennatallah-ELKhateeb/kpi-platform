@@ -1,0 +1,69 @@
+{
+  "id": "net-promoter-score",
+  "originalNumber": 19,
+  "nameEn": "Net promoter score (NPS)",
+  "nameAr": "مؤشر صافي المروّجين",
+  "acronym": "NPS",
+  "perspectiveId": "customer",
+  "summary": "مقياس لاستعداد العملاء للتوصية بالشركة، يُستخلص من نسبة المروّجين ناقص نسبة المنتقدين.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى عملاؤنا راضون ومخلصون؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "NPS = نسبة المروّجين % − نسبة المنتقدين %",
+    "type": "calculator",
+    "calculatorId": "nps",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "النتيجة رقم بين -100 و+100. تتبّع الاتجاه عبر الزمن وحلّل أسباب الدرجات المنخفضة أهم من الرقم المنفرد. ليس مقياس رضا مباشرًا.",
+  "dataSources": [
+    "استبيانات العملاء (سؤال التوصية)"
+  ],
+  "measurementFrequency": {
+    "text": "يشير الكتاب إلى أن كثيرًا من الشركات لا تجمع بيانات العملاء بالتكرار الكافي، وأن سؤال NPS الواحد يتيح جمعًا أكثر تكرارًا: بشكل مستمر من عينة من العملاء أو شهريًا (مثلًا من 10% من العملاء) بدل الاعتماد على الاستبيان السنوي الكبير فقط.",
+    "label": "book"
+  },
+  "factors": [
+    "تجربة العميل الأخيرة",
+    "توقيت الاستبيان وطريقة إرساله",
+    "حجم العينة ومعدل الاستجابة"
+  ],
+  "limitations": [
+    "ليس مقياس رضا مباشرًا",
+    "يتأثر بحجم العينة وتحيز الاستجابة"
+  ],
+  "commonMistakes": [
+    "الاكتفاء بالرقم دون قراءة تعليقات العملاء",
+    "مقارنة NPS بين قطاعات مختلفة دون تحقق"
+  ],
+  "relatedKpiIds": [
+    "customer-satisfaction-index",
+    "customer-retention-rate",
+    "customer-complaints",
+    "staff-advocacy-score"
+  ],
+  "tags": [
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 85,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "حدود الفئات (مروّج/محايد/منتقد) المعروضة هي التعريف الشائع لمقياس 0–10؛ راجعها في الكتاب"
+  ]
+}

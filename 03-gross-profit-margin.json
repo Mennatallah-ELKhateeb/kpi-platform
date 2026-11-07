@@ -1,0 +1,69 @@
+{
+  "id": "gross-profit-margin",
+  "originalNumber": 3,
+  "nameEn": "Gross profit margin",
+  "nameAr": "هامش الربح الإجمالي",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "الربح المتبقي بعد خصم تكلفة المبيعات (تكلفة البضاعة المباعة)، منسوبًا إلى الإيرادات.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "كم من الربح نحققه عن كل وحدة نقدية من المبيعات؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "هامش الربح الإجمالي = (الإيرادات − تكلفة المبيعات) ÷ الإيرادات × 100%",
+    "type": "calculator",
+    "calculatorId": "grossMargin",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يبيّن العلاقة بين سعر البيع وتكلفة المنتج أو الخدمة. انخفاضه يستدعي مراجعة تكلفة الشراء/الإنتاج والخصومات والأسعار، لكن السبب لا يظهر من النسبة وحدها.",
+  "dataSources": [
+    "الإيرادات وتكلفة المبيعات من النظام المحاسبي"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب شهريًا ضمن دورة التقارير الإدارية المعتادة.",
+    "label": "book"
+  },
+  "factors": [
+    "تكلفة الشراء أو الإنتاج",
+    "الخصومات وسياسة التسعير",
+    "مزيج المنتجات"
+  ],
+  "limitations": [
+    "لا يشمل كل المصروفات",
+    "تصنيف بعض التكاليف ضمن «تكلفة المبيعات» يختلف بين الشركات"
+  ],
+  "commonMistakes": [
+    "اعتباره مؤشرًا للربح النهائي",
+    "مقارنته بين شركات تصنّف التكاليف بشكل مختلف"
+  ],
+  "relatedKpiIds": [
+    "net-profit-margin",
+    "operating-profit-margin",
+    "net-profit"
+  ],
+  "tags": [
+    "profitability",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 13,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "أي أمثلة تاريخية لهوامش الصناعات في الكتاب لا تُعامل كمعيار حالي"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "return-on-innovation-investment",
+  "originalNumber": 48,
+  "nameEn": "Return on innovation investment (ROI2)",
+  "nameAr": "العائد على الاستثمار في الابتكار",
+  "acronym": "ROI2",
+  "perspectiveId": "operations",
+  "summary": "مقارنة أرباح الابتكار بتكاليفه.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تحقق استثماراتنا في الابتكار عائدًا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ROI2 (شائع) = (الربح المنسوب للابتكار − تكلفته) ÷ تكلفته × 100%",
+    "type": "calculator",
+    "calculatorId": "roi2",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "تقدير الأثر والعوائد المستقبلية صعب؛ اعرض الافتراضات المستخدمة في نسب الأرباح للابتكار.",
+  "dataSources": [
+    "تكاليف البحث والتطوير",
+    "ربحية المنتجات الجديدة",
+    "بيانات المشروعات والمحاسبة"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياسه في نهاية مشروع الابتكار أو كنسبة عائد على مدى سنة (أنسب للمشروعات الأطول)، مما يساعد على تقدير مدة استرداد الاستثمار.",
+    "label": "book"
+  },
+  "factors": [
+    "تحديد ما يُنسب للابتكار",
+    "الأفق الزمني",
+    "تأخر ظهور العوائد"
+  ],
+  "limitations": [
+    "تقدير الأثر والعوائد المستقبلية صعب"
+  ],
+  "commonMistakes": [
+    "نسب أرباح عامة إلى ابتكار محدد دون أساس"
+  ],
+  "relatedKpiIds": [
+    "return-on-investment",
+    "innovation-pipeline-strength",
+    "time-to-market"
+  ],
+  "tags": [
+    "innovation",
+    "returns"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 221,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

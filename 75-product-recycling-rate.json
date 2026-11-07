@@ -1,0 +1,65 @@
+{
+  "id": "product-recycling-rate",
+  "originalNumber": 75,
+  "nameEn": "Product recycling rate",
+  "nameAr": "معدل إعادة تدوير المنتجات",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "نسبة المنتجات أو كميتها التي أُعيد تدويرها بعد الاستخدام.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نقلّل الأثر البيئي للمنتجات التي ننتجها أو نبيعها؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل التدوير = المنتجات (أو الوزن) المعاد تدويرها ÷ إجمالي المنتجات (أو الكمية) المؤهلة × 100%",
+    "type": "calculator",
+    "calculatorId": "productRecycling",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "حدد مقام القياس وحدود البرنامج (أي المنتجات والأسواق مشمولة)، لأن الاسترجاع الفعلي قد يكون أصعب قياسًا من المبيعات.",
+  "dataSources": [
+    "سجلات الاسترجاع ومقدمو إعادة التدوير",
+    "بيانات المبيعات والإنتاج (تُستخرج بسهولة)"
+  ],
+  "measurementFrequency": {
+    "text": "تُجمع معدلات تدوير المنتجات عادةً سنويًا أو نصف سنويًا. ويشير الكتاب إلى أن بيانات معدلات التدوير نفسها أصعب في الجمع من بيانات المبيعات والإنتاج.",
+    "label": "book"
+  },
+  "factors": [
+    "برامج الاسترجاع",
+    "تصميم المنتج",
+    "سلوك المستهلك"
+  ],
+  "limitations": [
+    "حدد مقام القياس وحدود البرنامج"
+  ],
+  "commonMistakes": [
+    "استخدام إجمالي المبيعات كمقام دون مراعاة المنتجات غير المؤهلة"
+  ],
+  "relatedKpiIds": [
+    "waste-recycling-rate",
+    "waste-reduction-rate",
+    "carbon-footprint"
+  ],
+  "tags": [
+    "environment"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 341,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

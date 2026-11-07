@@ -1,0 +1,65 @@
+{
+  "id": "capacity-utilisation-rate",
+  "originalNumber": 39,
+  "nameEn": "Capacity utilisation rate (CUR)",
+  "nameAr": "معدل استغلال الطاقة",
+  "acronym": "CUR",
+  "perspectiveId": "operations",
+  "summary": "نسبة الاستخدام الفعلي إلى الطاقة المتاحة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نستفيد من كامل طاقتنا الإنتاجية ومجهودنا المتاح؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "CUR = الإنتاج (أو الاستخدام) الفعلي ÷ الطاقة المحددة × 100%",
+    "type": "calculator",
+    "calculatorId": "capacityUtilisation",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "استغلال منخفض قد يعني طاقة غير مستخدمة، لكن الاستغلال المرتفع جدًا قد يسبب اختناقات وتأخيرات. الأفضل تحديد مدى مستهدف حسب طبيعة العملية.",
+  "dataSources": [
+    "خطط الطاقة",
+    "سجلات التشغيل وأنظمة التصنيع"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس غالبًا يوميًا أو أسبوعيًا ويختلف بحسب وحدة الإنتاج: قد يُحسب بالساعة لآلة واحدة وأسبوعيًا أو شهريًا لمصنع كامل.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف الطاقة (نظرية أم عملية)",
+    "الطلب والموسمية",
+    "الصيانة والتوقفات"
+  ],
+  "limitations": [
+    "الاستغلال المرتفع جدًا قد يسبب اختناقات"
+  ],
+  "commonMistakes": [
+    "السعي إلى 100% دون مراعاة المرونة والجودة"
+  ],
+  "relatedKpiIds": [
+    "overall-equipment-effectiveness",
+    "process-or-machine-downtime-level",
+    "order-fulfilment-cycle-time"
+  ],
+  "tags": [
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 185,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "innovation-pipeline-strength",
+  "originalNumber": 47,
+  "nameEn": "Innovation pipeline strength (IPS)",
+  "nameAr": "قوة خط الابتكار",
+  "acronym": "IPS",
+  "perspectiveId": "operations",
+  "summary": "قوة مجموعة الابتكارات المحتملة ومراحلها واحتمالات نجاحها.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يتوافر لدينا خط ابتكار قوي؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر مركب حسب عدد المشاريع ومراحلها واحتمالات نجاحها",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "عدد الأفكار/المشروعات في كل مرحلة",
+      "احتمال الانتقال بين المراحل",
+      "القيمة المتوقعة لكل مشروع",
+      "الأفق الزمني"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "العدد وحده لا يضمن النجاح؛ انظر إلى توزيع المشروعات عبر المراحل وجودة التقديرات.",
+  "dataSources": [
+    "محفظة الابتكار",
+    "البحث والتطوير",
+    "تحليل وتقديرات داخلية"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً ربع سنويًا ويمكن زيادة التكرار أو تقليله بحسب طول دورات الابتكار.",
+    "label": "book"
+  },
+  "factors": [
+    "معايير الانتقال بين المراحل",
+    "جودة التقدير",
+    "الموارد المخصصة"
+  ],
+  "limitations": [
+    "العدد وحده لا يضمن النجاح"
+  ],
+  "commonMistakes": [
+    "عدّ الأفكار الضعيفة لتضخيم المؤشر"
+  ],
+  "relatedKpiIds": [
+    "return-on-innovation-investment",
+    "time-to-market"
+  ],
+  "tags": [
+    "innovation"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 217,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "employee-satisfaction-index",
+  "originalNumber": 58,
+  "nameEn": "Employee satisfaction index",
+  "nameAr": "مؤشر رضا الموظفين",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "مستوى رضا الموظفين عن عملهم وفق استبيان.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يشعر موظفونا بالرضا في أعمالهم؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "متوسط أو مؤشر مركب حسب تصميم الاستبيان",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "الأسئلة وعددها",
+      "مقياس الإجابة",
+      "أوزان الأسئلة",
+      "حجم العينة ومعدل المشاركة",
+      "ضمانات السرية"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "راعِ السرية ومعدل المشاركة عند قراءة النتائج؛ فالمشاركة المنخفضة تضعف الدلالة.",
+  "dataSources": [
+    "استبيانات الموظفين"
+  ],
+  "measurementFrequency": {
+    "text": "يُجمع عادةً باستبيان سنوي. ويقترح الكتاب أن قد يكون أنفع استطلاع 10% من الموظفين عشر مرات في السنة ليبقى المؤشر حديثًا ويُظهر أثر التدخلات.",
+    "label": "book"
+  },
+  "factors": [
+    "صياغة الأسئلة",
+    "السرية والثقة",
+    "التغييرات التنظيمية الأخيرة"
+  ],
+  "limitations": [
+    "راعِ السرية والعينة ومعدل المشاركة"
+  ],
+  "commonMistakes": [
+    "الخلط بين الرضا والاندماج",
+    "عرض نتائج فرق صغيرة تكشف هوية المجيبين"
+  ],
+  "relatedKpiIds": [
+    "employee-engagement-level",
+    "staff-advocacy-score",
+    "employee-churn-rate",
+    "average-employee-tenure"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 265,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

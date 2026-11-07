@@ -1,0 +1,66 @@
+{
+  "id": "cost-per-lead",
+  "originalNumber": 30,
+  "nameEn": "Cost per lead",
+  "nameAr": "تكلفة العميل المحتمل",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "تكلفة الحصول على عميل محتمل (Lead) واحد.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تُبرَّر تكاليف اكتساب عملاء جدد؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "تكلفة العميل المحتمل = تكلفة الحملة ÷ عدد العملاء المحتملين",
+    "type": "calculator",
+    "calculatorId": "costPerLead",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "تكلفة أقل لا تعني بالضرورة نتيجة أفضل؛ قارنها بجودة العملاء المحتملين ومعدل تحويلهم.",
+  "dataSources": [
+    "منصات الإعلان",
+    "نظام CRM",
+    "قسم التسويق"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياس تكلفة العميل المحتمل مباشرةً بعد الحدث التسويقي، أما تكلفة العميل المحتمل «المؤهَّل» فتُجمع بعد أسابيع أو أشهر من تطبيق معايير التأهيل.",
+    "label": "book"
+  },
+  "factors": [
+    "القناة التسويقية",
+    "جودة الاستهداف",
+    "تعريف «العميل المحتمل»"
+  ],
+  "limitations": [
+    "جودة العملاء المحتملين مهمة بجانب التكلفة"
+  ],
+  "commonMistakes": [
+    "ملاحقة أقل تكلفة على حساب جودة العملاء"
+  ],
+  "relatedKpiIds": [
+    "conversion-rate",
+    "customer-lifetime-value",
+    "search-engine-rankings-and-click-through-rate"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 143,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

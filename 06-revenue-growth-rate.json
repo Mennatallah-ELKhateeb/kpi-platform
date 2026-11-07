@@ -1,0 +1,67 @@
+{
+  "id": "revenue-growth-rate",
+  "originalNumber": 6,
+  "nameEn": "Revenue growth rate",
+  "nameAr": "معدل نمو الإيرادات",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "مقدار تغير الإيرادات مقارنةً بفترة سابقة، معبَّرًا عنه كنسبة مئوية.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في تنمية الأعمال؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل النمو = (الإيرادات الحالية − الإيرادات السابقة) ÷ الإيرادات السابقة × 100%",
+    "type": "calculator",
+    "calculatorId": "revenueGrowth",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "النمو في الإيرادات لا يعني نموًا مماثلًا في الربح. تأكد من اتساق الفترتين، ومن أثر تغير الأسعار أو العملة.",
+  "dataSources": [
+    "تقارير المبيعات",
+    "دفتر الأستاذ وقائمة الدخل"
+  ],
+  "measurementFrequency": {
+    "text": "تُحسب الإيرادات شهريًا، وقد تُعرض معدلات النمو ربع سنويًا مع مقارنات عدة أرباع أو سنة بسنة.",
+    "label": "book"
+  },
+  "factors": [
+    "تغير الأسعار أو سعر الصرف",
+    "الموسمية",
+    "حجم المبيعات والعملاء الجدد"
+  ],
+  "limitations": [
+    "لا يصلح مباشرة إذا كانت القيمة السابقة صفرًا",
+    "تغير الأسعار أو العملة قد يضخّم أو يخفّض النمو"
+  ],
+  "commonMistakes": [
+    "مقارنة شهر بموسم كامل",
+    "اعتبار نمو المبيعات دليلًا على نمو الربح"
+  ],
+  "relatedKpiIds": [
+    "net-profit-margin",
+    "market-growth-rate",
+    "relative-market-share"
+  ],
+  "tags": [
+    "growth"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 25,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

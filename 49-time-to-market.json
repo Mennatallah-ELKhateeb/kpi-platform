@@ -1,0 +1,66 @@
+{
+  "id": "time-to-market",
+  "originalNumber": 49,
+  "nameEn": "Time to market",
+  "nameAr": "الوقت اللازم للوصول إلى السوق",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "المدة من بدء تطوير المنتج إلى إتاحته للعملاء.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى سرعتنا في إيصال المنتجات أو الخدمات إلى السوق؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "الوقت = تاريخ إتاحة المنتج − تاريخ اعتماد بدء التطوير (بالأيام)",
+    "type": "calculator",
+    "calculatorId": "daysBetweenTtm",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "حدد نقطتي القياس بدقة وقارن منتجات متشابهة، فالمقارنة بين منتج بسيط وآخر معقد مضللة.",
+  "dataSources": [
+    "سجلات التطوير والاعتماد",
+    "الوثائق من الموافقة على التصميم حتى الإتاحة للشراء"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عند إتاحة المنتج، مع متابعة الوقت المنقضي أثناء التطوير مقارنةً بتاريخ الإطلاق المستهدف لأثره في التكلفة والعوائد.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف نقطة البداية",
+    "تعقيد المنتج",
+    "الموافقات التنظيمية"
+  ],
+  "limitations": [
+    "حدد نقطتي القياس وقارن منتجات متشابهة"
+  ],
+  "commonMistakes": [
+    "تغيير نقطة البداية بين المنتجات"
+  ],
+  "relatedKpiIds": [
+    "innovation-pipeline-strength",
+    "return-on-innovation-investment",
+    "order-fulfilment-cycle-time"
+  ],
+  "tags": [
+    "innovation",
+    "delivery"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 225,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

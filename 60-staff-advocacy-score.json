@@ -1,0 +1,70 @@
+{
+  "id": "staff-advocacy-score",
+  "originalNumber": 60,
+  "nameEn": "Staff advocacy score",
+  "nameAr": "مؤشر مناصرة الموظفين",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "مدى استعداد الموظفين للتوصية بالعمل في المؤسسة أو بمنتجاتها.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يدافع موظفونا عن أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "سؤال توصية أو مؤشر داخلي محدد",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "سؤال التوصية المعتمد",
+      "مقياس الإجابة",
+      "العينة وتكرار الجمع",
+      "ضمانات السرية"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "احمِ السرية ولا تختزل تجربة الموظف في رقم؛ اقرأ التعليقات المرافقة.",
+  "dataSources": [
+    "استبيانات الموظفين"
+  ],
+  "measurementFrequency": {
+    "text": "تجمع معظم الشركات البيانات سنويًا، لكن الأفضل إجراء استبيانات أصغر على عينات (مثل 10%) شهريًا لرؤية الاتجاهات خلال السنة مع تغطية الجميع على مدار العام.",
+    "label": "book"
+  },
+  "factors": [
+    "ثقافة المؤسسة",
+    "تجربة العمل",
+    "القيادة"
+  ],
+  "limitations": [
+    "احمِ السرية ولا تختزل تجربة الموظف"
+  ],
+  "commonMistakes": [
+    "استخدام النتائج لمحاسبة أفراد بدل تحسين البيئة"
+  ],
+  "relatedKpiIds": [
+    "employee-satisfaction-index",
+    "employee-engagement-level",
+    "net-promoter-score",
+    "employee-churn-rate"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 273,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

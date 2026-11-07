@@ -1,0 +1,66 @@
+{
+  "id": "market-growth-rate",
+  "originalNumber": 27,
+  "nameEn": "Market growth rate",
+  "nameAr": "معدل نمو السوق",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "مدى توسع السوق أو انكماشه بين فترتين.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نعمل في أسواق ذات إمكانات مستقبلية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل نمو السوق = (حجم السوق الحالي − السابق) ÷ السابق × 100%",
+    "type": "calculator",
+    "calculatorId": "marketGrowth",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "نمو السوق يعطي سياقًا لنمو شركتك: قد تنمو مبيعاتك بينما تفقد حصتك إن نما السوق أسرع منك.",
+  "dataSources": [
+    "أبحاث السوق ومصادر الصناعة",
+    "استبيانات عند الحاجة"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً سنويًا، ومن المنطقي عرضه ربع سنويًا على أساس سنوي متحرك.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف السوق وحدوده",
+    "جودة مصدر البيانات",
+    "الظروف الاقتصادية"
+  ],
+  "limitations": [
+    "عرّف السوق والفترة باستمرار"
+  ],
+  "commonMistakes": [
+    "مقارنة تقديرات من مصادر بتعريفات مختلفة للسوق"
+  ],
+  "relatedKpiIds": [
+    "relative-market-share",
+    "revenue-growth-rate",
+    "brand-equity"
+  ],
+  "tags": [
+    "market",
+    "growth"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 129,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

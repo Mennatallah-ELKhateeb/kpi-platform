@@ -1,0 +1,67 @@
+{
+  "id": "training-return-on-investment",
+  "originalNumber": 67,
+  "nameEn": "Training return on investment",
+  "nameAr": "العائد على الاستثمار في التدريب",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "هل تبرر فوائد التدريب تكلفته؟",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى فعالية التدريب في تحقيق نتائج الأعمال؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "إن أمكن تقدير الفوائد: (الفوائد المالية − تكلفة التدريب) ÷ التكلفة × 100%",
+    "type": "calculator",
+    "calculatorId": "trainingRoi",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "عزل أثر التدريب عن عوامل أخرى صعب؛ اعرض الفوائد المقدرة كتقدير مع افتراضاتها.",
+  "dataSources": [
+    "تكاليف التدريب",
+    "بيانات الأداء",
+    "المتدربون وإدارة الموارد البشرية (تحليل الأثر)"
+  ],
+  "measurementFrequency": {
+    "text": "يُطبَّق على برامج التدريب الكبرى.",
+    "label": "book"
+  },
+  "factors": [
+    "طريقة تقدير الفوائد",
+    "عزل العوامل الأخرى",
+    "الفترة بعد التدريب"
+  ],
+  "limitations": [
+    "عزل أثر التدريب عن عوامل أخرى صعب"
+  ],
+  "commonMistakes": [
+    "نسب كل تحسن في الأداء إلى التدريب وحده"
+  ],
+  "relatedKpiIds": [
+    "return-on-investment",
+    "360-degree-feedback-score",
+    "human-capital-value-added"
+  ],
+  "tags": [
+    "people",
+    "returns"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 303,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

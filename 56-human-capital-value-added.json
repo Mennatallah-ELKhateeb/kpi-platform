@@ -1,0 +1,74 @@
+{
+  "id": "human-capital-value-added",
+  "originalNumber": 56,
+  "nameEn": "Human capital value added (HCVA)",
+  "nameAr": "القيمة المضافة لرأس المال البشري",
+  "acronym": "HCVA",
+  "perspectiveId": "employee",
+  "summary": "قيمة مضافة مرتبطة بمساهمة الموظفين بعد تكاليف محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى يضيف موظفونا قيمة إلى السطر الأخير (صافي النتيجة)؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "تختلف الصيغة؛ وثّق مقياس القيمة المضافة وتكاليف العمل المستخدمة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "الإيرادات",
+      "المصروفات الكلية",
+      "تكاليف الموظفين (الرواتب والمزايا)",
+      "عدد الموظفين المكافئ بدوام كامل",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "لا تقارن صيغًا مختلفة ولا شركات تحتسب تكاليف العمل بشكل مختلف. اقرأه مع مؤشرات الإنتاجية الأخرى.",
+  "dataSources": [
+    "نظام المحاسبة المالية",
+    "بيانات الرواتب والموارد البشرية"
+  ],
+  "measurementFrequency": {
+    "text": "يوصي الكتاب بحساب ربع سنوي.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف تكاليف العمل",
+    "استخدام متعاقدين",
+    "هيكل التكاليف"
+  ],
+  "limitations": [
+    "لا تقارن صيغًا مختلفة"
+  ],
+  "commonMistakes": [
+    "الخلط بين القيمة المضافة والإيرادات لكل موظف"
+  ],
+  "relatedKpiIds": [
+    "revenue-per-employee",
+    "employee-churn-rate",
+    "employee-satisfaction-index"
+  ],
+  "tags": [
+    "people",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 257,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الصيغة المحددة في الكتاب تحتاج مراجعة مباشرة قبل أي حساب رسمي"
+  ]
+}

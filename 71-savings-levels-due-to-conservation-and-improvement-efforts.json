@@ -1,0 +1,67 @@
+{
+  "id": "savings-levels-due-to-conservation-and-improvement-efforts",
+  "originalNumber": 71,
+  "nameEn": "Savings levels due to conservation and improvement efforts",
+  "nameAr": "التوفير الناتج عن جهود الترشيد والتحسين",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "الوفورات المنسوبة إلى مبادرات ترشيد وتحسين محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نخفّض فعليًا الأثر البيئي لأعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "التوفير = خط الأساس − الاستهلاك (أو التكلفة) بعد التحسين، مع ضبط التغيرات",
+    "type": "calculator",
+    "calculatorId": "conservationSavings",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يجب أن يستند التوفير إلى خط أساس موثق، مع تعديله عند تغير حجم النشاط، وتجنب العد المزدوج للمبادرات المتداخلة.",
+  "dataSources": [
+    "فواتير الطاقة والموارد",
+    "بيانات التشغيل",
+    "إدخال وحسابات يدوية"
+  ],
+  "measurementFrequency": {
+    "text": "تُتابَع مستويات التوفير عادةً ربع سنويًا، ويعتمد التكرار على الأطر الزمنية للمشروعات؛ فإذا طالت المشروعات عامًا أو عامين قد يكون من المنطقي الإبلاغ بعد انتهائها أو تقسيمها إلى مراحل.",
+    "label": "book"
+  },
+  "factors": [
+    "اختيار خط الأساس",
+    "تغير حجم النشاط",
+    "تداخل المبادرات"
+  ],
+  "limitations": [
+    "وثّق خط الأساس وتجنب العد المزدوج"
+  ],
+  "commonMistakes": [
+    "نسب انخفاض سببه تراجع النشاط إلى مبادرة ترشيد"
+  ],
+  "relatedKpiIds": [
+    "energy-consumption",
+    "waste-reduction-rate",
+    "carbon-footprint"
+  ],
+  "tags": [
+    "environment",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 325,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

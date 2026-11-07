@@ -1,0 +1,68 @@
+{
+  "id": "first-pass-yield",
+  "originalNumber": 50,
+  "nameEn": "First pass yield (FPY)",
+  "nameAr": "معدل النجاح من أول مرة",
+  "acronym": "FPY",
+  "perspectiveId": "operations",
+  "summary": "نسبة الوحدات التي اجتازت العملية من أول مرة دون إعادة عمل.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى كفاءة عملياتنا التشغيلية الداخلية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "FPY = الوحدات المجتازة دون إعادة عمل ÷ إجمالي الوحدات الداخلة × 100%",
+    "type": "calculator",
+    "calculatorId": "firstPassYield",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يخبرك كم وحدة نجحت من أول محاولة. كل وحدة أعيد عملها تُحتسب غير ناجحة من أول مرة حتى لو اجتازت لاحقًا.",
+  "dataSources": [
+    "سجلات الإنتاج والفحص",
+    "مراقبة العملية التشغيلية مباشرةً"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس باستمرار إذا كان آليًا؛ أما إذا كان جمع البيانات يدويًا بالعيّنات فيجب تحديد أطر زمنية مناسبة.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف الوحدة المقبولة",
+    "جودة المواد",
+    "تدريب المشغلين"
+  ],
+  "limitations": [
+    "وثّق تعريف الوحدة المقبولة",
+    "في العمليات متعددة المراحل قد يلزم حساب العائد لكل مرحلة"
+  ],
+  "commonMistakes": [
+    "احتساب الوحدات المُعاد عملها ضمن الناجحة",
+    "الخلط بينه وبين العائد النهائي بعد الفرز"
+  ],
+  "relatedKpiIds": [
+    "rework-level",
+    "six-sigma-level",
+    "quality-index",
+    "process-waste-level"
+  ],
+  "tags": [
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 229,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

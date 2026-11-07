@@ -1,0 +1,66 @@
+{
+  "id": "relative-market-share",
+  "originalNumber": 28,
+  "nameEn": "Relative market share",
+  "nameAr": "الحصة السوقية النسبية",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "موقع حصة الشركة مقارنةً بمنافس مرجعي.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في تطوير حصتنا السوقية مقارنةً بالمنافسين؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "الحصة النسبية = حصة الشركة ÷ حصة المنافس المختار",
+    "type": "calculator",
+    "calculatorId": "relativeMarketShare",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "قيمة أعلى من 1 تعني أن حصتك أكبر من حصة المنافس المرجعي، وأقل من 1 تعني العكس. تتغير القراءة تبعًا للمنافس الذي تختاره.",
+  "dataSources": [
+    "أبحاث السوق",
+    "بيانات المبيعات",
+    "تقارير سنوية"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً سنويًا وربما بتكرار أعلى في الأسواق سريعة التغير.",
+    "label": "book"
+  },
+  "factors": [
+    "اختيار المنافس المرجعي",
+    "تعريف السوق",
+    "توافر بيانات المنافسين"
+  ],
+  "limitations": [
+    "اختيار المنافس وتعريف السوق يؤثران"
+  ],
+  "commonMistakes": [
+    "تغيير المنافس المرجعي بين الفترات دون توضيح"
+  ],
+  "relatedKpiIds": [
+    "market-growth-rate",
+    "brand-equity",
+    "revenue-growth-rate"
+  ],
+  "tags": [
+    "market"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 133,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

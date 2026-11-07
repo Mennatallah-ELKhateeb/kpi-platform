@@ -1,0 +1,73 @@
+{
+  "id": "quality-index",
+  "originalNumber": 52,
+  "nameEn": "Quality index",
+  "nameAr": "مؤشر الجودة",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "تلخيص عدة أبعاد للجودة في مؤشر واحد.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "كيف تضمن المؤسسة تقديم منتجات وخدمات مناسبة للغرض؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر مركب بأوزان وتعريفات محددة (لا توجد صيغة واحدة)",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "أبعاد الجودة المشمولة (عيوب، شكاوى، فحص…)",
+      "مقياس كل بُعد",
+      "وزن كل بُعد",
+      "طريقة التجميع",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "اختيار الأوزان يؤثر مباشرة في النتيجة؛ ولا بد من عرض مكونات المؤشر لا الرقم المجمع فقط.",
+  "dataSources": [
+    "بيانات العيوب",
+    "الشكاوى والفحص",
+    "تقارير أداء العمليات والتسويق/إدارة العملاء"
+  ],
+  "measurementFrequency": {
+    "text": "يتفاوت بحسب الصناعة؛ فبعض الشركات الصناعية تعدّ المؤشرات شبه لحظيًا، بينما قد يكفي الربع سنوي لمؤسسة غير تجارية.",
+    "label": "book"
+  },
+  "factors": [
+    "اختيار الأبعاد والأوزان",
+    "جودة البيانات المصدرية",
+    "تكرار الحساب"
+  ],
+  "limitations": [
+    "اختيار الأوزان يؤثر في النتيجة"
+  ],
+  "commonMistakes": [
+    "إخفاء مكونات المؤشر خلف رقم واحد"
+  ],
+  "relatedKpiIds": [
+    "first-pass-yield",
+    "rework-level",
+    "six-sigma-level",
+    "customer-complaints"
+  ],
+  "tags": [
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 237,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

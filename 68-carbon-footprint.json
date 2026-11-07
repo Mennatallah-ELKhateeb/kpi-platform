@@ -1,0 +1,74 @@
+{
+  "id": "carbon-footprint",
+  "originalNumber": 68,
+  "nameEn": "Carbon footprint",
+  "nameAr": "البصمة الكربونية",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "انبعاثات غازات الدفيئة المرتبطة بالنشاط.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في حماية البيئة أثناء تنفيذ أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "تُجمع الانبعاثات وتُحوَّل إلى مكافئ CO₂ وفق عوامل موثوقة وحدود محددة",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "حدود القياس (النطاقات المشمولة)",
+      "بيانات النشاط (طاقة، وقود، نقل، مشتريات)",
+      "عوامل الانبعاث ومصدرها وسنتها",
+      "سنة الأساس"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "وثّق النطاقات وعوامل الانبعاث والسنة المرجعية؛ فالتغيير فيها يجعل المقارنة بين السنوات مضللة.",
+  "dataSources": [
+    "استهلاك الطاقة والوقود",
+    "النقل والسفر",
+    "المشتريات وبيانات المصانع والمنتجات"
+  ],
+  "measurementFrequency": {
+    "text": "تُجري المؤسسات عادةً تقييمًا سنويًا لبصمتها الكربونية، وتقييمات المنتجات سنوية غالبًا وأحيانًا بتكرار أعلى.",
+    "label": "book"
+  },
+  "factors": [
+    "حدود القياس",
+    "عوامل الانبعاث",
+    "مزيج الطاقة"
+  ],
+  "limitations": [
+    "وثّق النطاقات وعوامل الانبعاث والسنة المرجعية"
+  ],
+  "commonMistakes": [
+    "مقارنة بصمات بحدود قياس مختلفة"
+  ],
+  "relatedKpiIds": [
+    "energy-consumption",
+    "savings-levels-due-to-conservation-and-improvement-efforts",
+    "supply-chain-miles",
+    "water-footprint"
+  ],
+  "tags": [
+    "environment"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 311,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "عوامل الانبعاث تتغير؛ استخدم مصدرًا حديثًا وموثقًا"
+  ]
+}

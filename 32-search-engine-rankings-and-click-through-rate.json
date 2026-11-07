@@ -1,0 +1,65 @@
+{
+  "id": "search-engine-rankings-and-click-through-rate",
+  "originalNumber": 32,
+  "nameEn": "Search engine rankings (by keyword) and click-through rate",
+  "nameAr": "ترتيب محركات البحث (حسب الكلمة المفتاحية) ومعدل النقر",
+  "acronym": "CTR",
+  "perspectiveId": "marketing",
+  "summary": "ترتيب ظهور الموقع في نتائج البحث ونسبة النقرات من مرات الظهور.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في تحسين استراتيجيتنا على الإنترنت؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "CTR = النقرات ÷ مرات الظهور × 100% (الترتيب يُسجَّل لكل كلمة مفتاحية)",
+    "type": "calculator",
+    "calculatorId": "clickThroughRate",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "الترتيب يختلف حسب الموقع والجهاز والسياق، فاقرأ CTR مع الكلمات المفتاحية المحددة لا كمتوسط عام فقط.",
+  "dataSources": [
+    "أدوات البحث",
+    "تحليلات الويب"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياس الترتيب ومعدل النقر بشكل مستمر مع عرضها وفق دورات تقارير المؤسسة.",
+    "label": "book"
+  },
+  "factors": [
+    "الكلمة المفتاحية ونيّة الباحث",
+    "عنوان الصفحة ووصفها",
+    "المنافسة"
+  ],
+  "limitations": [
+    "الترتيب يختلف حسب السياق"
+  ],
+  "commonMistakes": [
+    "الخلط بين CTR ومعدل التحويل"
+  ],
+  "relatedKpiIds": [
+    "conversion-rate",
+    "page-views-and-bounce-rates",
+    "customer-online-engagement-level"
+  ],
+  "tags": [
+    "marketing"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 151,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

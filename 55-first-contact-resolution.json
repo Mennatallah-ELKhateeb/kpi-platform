@@ -1,0 +1,67 @@
+{
+  "id": "first-contact-resolution",
+  "originalNumber": 55,
+  "nameEn": "First contact resolution (FCR)",
+  "nameAr": "حل المشكلة من أول تواصل",
+  "acronym": "FCR",
+  "perspectiveId": "operations",
+  "summary": "نسبة الحالات التي حُلَّت من أول تواصل مع العميل.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى فاعليتنا في حل استفسارات العملاء من أول تواصل؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "FCR = الحالات المحلولة من أول تواصل ÷ الحالات المؤهلة × 100%",
+    "type": "calculator",
+    "calculatorId": "firstContactResolution",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "عرّف «حل نهائي» و«أول تواصل» بدقة. يمكن قياسه من سجلات النظام أو من استبيان العميل، وقد تختلف النتيجتان.",
+  "dataSources": [
+    "مركز الاتصال أو نظام CRM",
+    "سجل مكالمات الوكلاء أو استبيانات العملاء"
+  ],
+  "measurementFrequency": {
+    "text": "ينبغي أن يكون القياس مستمرًا (متابعة كل مكالمة مكتملة وتسجيلها)، ويكون الإبلاغ عادةً أسبوعيًا.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف الحل النهائي",
+    "تدريب الوكلاء وصلاحياتهم",
+    "تعقيد الاستفسارات"
+  ],
+  "limitations": [
+    "عرّف الحل النهائي وأول تواصل"
+  ],
+  "commonMistakes": [
+    "إغلاق الحالات سريعًا لتحسين الرقم دون حل فعلي"
+  ],
+  "relatedKpiIds": [
+    "customer-complaints",
+    "customer-satisfaction-index",
+    "net-promoter-score",
+    "order-fulfilment-cycle-time"
+  ],
+  "tags": [
+    "customers",
+    "delivery"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 251,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

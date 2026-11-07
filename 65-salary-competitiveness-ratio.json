@@ -1,0 +1,67 @@
+{
+  "id": "salary-competitiveness-ratio",
+  "originalNumber": 65,
+  "nameEn": "Salary competitiveness ratio (SCR)",
+  "nameAr": "نسبة تنافسية الراتب",
+  "acronym": "SCR",
+  "perspectiveId": "employee",
+  "summary": "مقارنة الراتب في المؤسسة بمرجع سوقي مناسب.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نقدّم راتبًا تنافسيًا لموظفينا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "SCR = راتب المؤسسة ÷ الراتب المرجعي × 100%",
+    "type": "calculator",
+    "calculatorId": "salaryCompetitiveness",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "تحتاج المقارنة لوظائف ومستويات متكافئة في السوق ذاته. النسبة 100% تعني تطابقًا مع المرجع المختار.",
+  "dataSources": [
+    "نظام الموارد البشرية ووثائق السياسات",
+    "مسوح أجور موثوقة للسوق أو الصناعة"
+  ],
+  "measurementFrequency": {
+    "text": "لأن مستويات الرواتب مستقرة نسبيًا في معظم الصناعات، يُنصح بقياسه سنويًا أو كل ستة أشهر.",
+    "label": "book"
+  },
+  "factors": [
+    "اختيار المرجع السوقي",
+    "تكافؤ الوظائف والمستويات",
+    "مزايا غير نقدية"
+  ],
+  "limitations": [
+    "تحتاج المقارنة لوظائف ومستويات متكافئة"
+  ],
+  "commonMistakes": [
+    "مقارنة راتب أساسي براتب إجمالي في المرجع"
+  ],
+  "relatedKpiIds": [
+    "employee-churn-rate",
+    "time-to-hire",
+    "employee-satisfaction-index"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 295,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "أي أرقام أجور مرجعية يجب أن تأتي من مسح حديث وموثوق"
+  ]
+}

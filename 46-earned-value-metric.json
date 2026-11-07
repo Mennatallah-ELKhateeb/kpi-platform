@@ -1,0 +1,64 @@
+{
+  "id": "earned-value-metric",
+  "originalNumber": 46,
+  "nameEn": "Earned value (EV) metric",
+  "nameAr": "مقياس القيمة المكتسبة",
+  "acronym": "EV",
+  "perspectiveId": "operations",
+  "summary": "القيمة المدرجة في ميزانية المشروع للعمل المنجز فعلًا.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تحقق مشروعاتنا التقدم المرغوب؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "EV = نسبة الإنجاز × ميزانية المشروع (أو العمل المقاس)",
+    "type": "calculator",
+    "calculatorId": "earnedValue",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "القيمة المكتسبة ليست النقد المدفوع؛ هي قيمة ما أُنجز وفق الميزانية، وتُقارن بالقيمة المخططة والتكلفة الفعلية.",
+  "dataSources": [
+    "برنامج إدارة المشروعات",
+    "سجلات المشروع"
+  ],
+  "measurementFrequency": {
+    "text": "يعتمد على نوع المشروع؛ وكقاعدة عامة تكون التقييمات أسبوعية، أو شهرية للمشروعات الأطول.",
+    "label": "book"
+  },
+  "factors": [
+    "طريقة قياس نسبة الإنجاز",
+    "دقة الميزانية",
+    "تقسيم الأعمال"
+  ],
+  "limitations": [
+    "لا تساويها بالنقد المدفوع"
+  ],
+  "commonMistakes": [
+    "تقدير نسبة الإنجاز بتفاؤل غير مبرر"
+  ],
+  "relatedKpiIds": [
+    "project-schedule-variance",
+    "project-cost-variance"
+  ],
+  "tags": [
+    "projects"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 213,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

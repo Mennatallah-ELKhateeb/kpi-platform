@@ -1,0 +1,68 @@
+{
+  "id": "net-profit",
+  "originalNumber": 1,
+  "nameEn": "Net profit",
+  "nameAr": "صافي الربح",
+  "acronym": null,
+  "perspectiveId": "financial",
+  "summary": "قيمة الربح (أو الخسارة) المتبقية من الإيرادات بعد خصم المصروفات والتكاليف الداخلة في الحساب خلال فترة محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نحقق نتائج على مستوى «السطر الأخير» (صافي النتيجة)؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "صافي الربح = الإيرادات − المصروفات (وفق قائمة الدخل)",
+    "type": "calculator",
+    "calculatorId": "netProfit",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يخبرك صافي الربح بقيمة الربح أو الخسارة، لكنه لا يوضح حجم الإيرادات اللازم لتحقيقه؛ لذلك يُقرأ مع هامش صافي الربح ومؤشرات الربحية الأخرى.",
+  "dataSources": [
+    "النظام المحاسبي",
+    "قائمة الدخل"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً كل شهر ضمن إعداد قائمة الدخل.",
+    "label": "book"
+  },
+  "factors": [
+    "أسعار البيع وحجم المبيعات",
+    "تكلفة البضاعة والمصروفات التشغيلية",
+    "الفوائد والضرائب والبنود الاستثنائية"
+  ],
+  "limitations": [
+    "لا يُساوى بالتدفق النقدي",
+    "قد يتأثر بالسياسات المحاسبية والبنود الاستثنائية"
+  ],
+  "commonMistakes": [
+    "مقارنة رقمين مطلقين لشركتين مختلفتي الحجم دون نسبة"
+  ],
+  "relatedKpiIds": [
+    "net-profit-margin",
+    "gross-profit-margin",
+    "operating-profit-margin",
+    "ebitda",
+    "return-on-assets"
+  ],
+  "tags": [
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 3,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

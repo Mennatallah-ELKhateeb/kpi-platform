@@ -1,0 +1,76 @@
+{
+  "id": "customer-lifetime-value",
+  "originalNumber": 23,
+  "nameEn": "Customer lifetime value",
+  "nameAr": "القيمة العمرية للعميل",
+  "acronym": "CLV",
+  "perspectiveId": "customer",
+  "summary": "القيمة الاقتصادية المتوقعة عبر مدة علاقة العميل بالشركة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى فهمنا للقيمة المالية التي تأتي من علاقاتنا مع العملاء؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "نموذج يعتمد على الهامش والاحتفاظ وتكرار الشراء والأفق الزمني",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "متوسط الإيراد لكل عميل في الفترة",
+      "هامش الربح",
+      "معدل الاحتفاظ",
+      "الأفق الزمني للتقدير",
+      "معدل الخصم (إن استُخدم)"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "تقدير يعتمد على افتراضات، فاعرض النتيجة كمدى لا كرقم واحد، وراجعها حين تتغير سلوكيات الشراء.",
+  "dataSources": [
+    "المعاملات التاريخية",
+    "الهوامش",
+    "بيانات الاحتفاظ"
+  ],
+  "measurementFrequency": {
+    "text": "السنة هي الفترة الأشيع، والقيمة العمرية حساب متعدد الفترات يمتد عادةً من 3 إلى 7 سنوات مستقبلية.",
+    "label": "book"
+  },
+  "factors": [
+    "معدل الاحتفاظ",
+    "الهامش",
+    "الأفق الزمني",
+    "معدل الخصم"
+  ],
+  "limitations": [
+    "تقدير يعتمد على افتراضات",
+    "يحتاج بيانات على مستوى العميل"
+  ],
+  "commonMistakes": [
+    "معاملة التقدير كحقيقة ثابتة",
+    "استخدام أفق زمني طويل جدًا دون دليل"
+  ],
+  "relatedKpiIds": [
+    "customer-retention-rate",
+    "customer-profitability-score",
+    "customer-turnover-rate"
+  ],
+  "tags": [
+    "customers",
+    "profitability"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 107,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

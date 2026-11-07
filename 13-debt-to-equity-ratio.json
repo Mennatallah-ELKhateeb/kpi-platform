@@ -1,0 +1,69 @@
+{
+  "id": "debt-to-equity-ratio",
+  "originalNumber": 13,
+  "nameEn": "Debt-to-equity (D/E) ratio",
+  "nameAr": "نسبة الدين إلى حقوق الملكية",
+  "acronym": "D/E",
+  "perspectiveId": "financial",
+  "summary": "مقارنة حجم الدين بحقوق الملكية لتوضيح طريقة تمويل الشركة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نموّل أعمالنا بالدين مقابل حقوق الملكية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "D/E = إجمالي الدين ÷ حقوق الملكية",
+    "type": "calculator",
+    "calculatorId": "debtEquity",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "نسبة أعلى تعني اعتمادًا أكبر على الدين. تفسيرها يعتمد على الصناعة وهيكل التمويل وتعريف «الدين» (هل يشمل كل الالتزامات أم القروض فقط).",
+  "dataSources": [
+    "الميزانية العمومية (قائمة المركز المالي)"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب عادةً سنويًا ويُعرض ربع سنويًا على أساس متحرك.",
+    "label": "book"
+  },
+  "factors": [
+    "سياسة التمويل",
+    "الصناعة",
+    "تعريف الدين"
+  ],
+  "limitations": [
+    "التفسير يعتمد على الصناعة والتمويل",
+    "اختلاف تعريف «الدين» يغيّر النتيجة"
+  ],
+  "commonMistakes": [
+    "اعتبار النسبة المنخفضة أفضل دائمًا",
+    "استخدام تعريف دين غير ثابت بين الفترات"
+  ],
+  "relatedKpiIds": [
+    "return-on-equity",
+    "working-capital-ratio",
+    "cash-conversion-cycle"
+  ],
+  "tags": [
+    "capital",
+    "liquidity"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 57,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الكتاب يشير إلى استخدام إجمالي الالتزامات في بعض العروض؛ حدّد تعريفك"
+  ]
+}

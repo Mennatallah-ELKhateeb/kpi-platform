@@ -1,0 +1,72 @@
+{
+  "id": "customer-online-engagement-level",
+  "originalNumber": 34,
+  "nameEn": "Customer online engagement level",
+  "nameAr": "مستوى تفاعل العملاء عبر الإنترنت",
+  "acronym": null,
+  "perspectiveId": "marketing",
+  "summary": "عمق التفاعل الرقمي للعملاء مع المحتوى أو الأدوات.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في إشراك عملائنا عبر الإنترنت؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مؤشر مركب: تحدد المؤسسة أحداث التفاعل وأوزانها",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "أحداث التفاعل المعتمدة",
+      "أوزان الأحداث",
+      "المنصات المشمولة",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "النقرات لا تعني وحدها قيمة تجارية؛ اربط أحداث التفاعل بنتائج مثل التسجيل أو الشراء.",
+  "dataSources": [
+    "تحليلات الويب والتطبيق",
+    "المجتمعات الإلكترونية"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن قياسه بشكل مستمر لكن يُرجَّح عرضه للإدارة العليا ربع سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف الحدث",
+    "نوع المحتوى",
+    "القناة"
+  ],
+  "limitations": [
+    "النقرات لا تعني وحدها قيمة تجارية"
+  ],
+  "commonMistakes": [
+    "اختيار أحداث سهلة القياس لا ترتبط بالهدف"
+  ],
+  "relatedKpiIds": [
+    "customer-engagement",
+    "page-views-and-bounce-rates",
+    "social-networking-footprint",
+    "online-share-of-voice"
+  ],
+  "tags": [
+    "marketing",
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 159,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

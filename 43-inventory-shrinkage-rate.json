@@ -1,0 +1,66 @@
+{
+  "id": "inventory-shrinkage-rate",
+  "originalNumber": 43,
+  "nameEn": "Inventory shrinkage rate (ISR)",
+  "nameAr": "معدل فاقد المخزون",
+  "acronym": "ISR",
+  "perspectiveId": "operations",
+  "summary": "الفارق أو الفقد غير المفسَّر في المخزون بين السجلات والواقع.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نفقد مخزونًا عبر عملياتنا الداخلية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الفاقد = قيمة (أو كمية) الفاقد ÷ مقام محدد (مثل قيمة المخزون) × 100%",
+    "type": "calculator",
+    "calculatorId": "inventoryShrinkage",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "افصل الفقد غير المفسَّر عن التلف والأخطاء المسجلة. المقام (قيمة المخزون أم المبيعات) يغيّر الرقم، فثبّته.",
+  "dataSources": [
+    "نظام إدارة المخزون",
+    "بيانات التصنيع والمشتريات",
+    "الجرد والمبيعات والشحن"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب غالبًا كل ستة أشهر أو بما يتوافق مع دورة الجرد، ويمكن جعله شهريًا إن توفرت أنظمة آلية.",
+    "label": "book"
+  },
+  "factors": [
+    "دقة تسجيل الحركات",
+    "التلف والسرقة والأخطاء",
+    "تكرار الجرد"
+  ],
+  "limitations": [
+    "افصل الفقد عن التلف والأخطاء المسجلة"
+  ],
+  "commonMistakes": [
+    "تغيير المقام بين الفترات"
+  ],
+  "relatedKpiIds": [
+    "order-fulfilment-cycle-time",
+    "delivery-in-full-on-time-rate",
+    "process-waste-level"
+  ],
+  "tags": [
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 201,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

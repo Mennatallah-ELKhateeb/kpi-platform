@@ -1,0 +1,70 @@
+{
+  "id": "total-shareholder-return",
+  "originalNumber": 7,
+  "nameEn": "Total shareholder return (TSR)",
+  "nameAr": "إجمالي عائد المساهمين",
+  "acronym": "TSR",
+  "perspectiveId": "financial",
+  "summary": "عائد المساهم من تغير سعر السهم والتوزيعات النقدية خلال فترة محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نحقق قيمة للمساهمين؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "TSR (مبسط) = (سعر النهاية − سعر البداية + التوزيعات) ÷ سعر البداية × 100%",
+    "type": "calculator",
+    "calculatorId": "tsr",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يعكس تجربة المساهم لا أداء الإدارة وحدها؛ فهو يتأثر بحركة السوق وعوامل خارجة عن سيطرة الإدارة.",
+  "dataSources": [
+    "أسعار الأسهم",
+    "بيانات التوزيعات"
+  ],
+  "measurementFrequency": {
+    "text": "غالبًا سنويًا، وقد تقيّمه بعض المؤسسات مرتين في السنة. تُفضَّل فترة 12 شهرًا كاملة لأنها تعكس الموسمية وتخفف أثر التقلبات المؤقتة.",
+    "label": "book"
+  },
+  "factors": [
+    "حركة السوق العامة",
+    "سياسة التوزيعات",
+    "الفترة المختارة وتوقيتها"
+  ],
+  "limitations": [
+    "يتأثر بالسوق وعوامل خارج سيطرة الإدارة",
+    "تختلف الصيغ حسب معاملة إعادة استثمار التوزيعات"
+  ],
+  "commonMistakes": [
+    "الحكم على أداء الإدارة من فترة قصيرة",
+    "تجاهل أثر إعادة استثمار التوزيعات عند المقارنة"
+  ],
+  "relatedKpiIds": [
+    "economic-value-added",
+    "price-earnings-ratio",
+    "return-on-equity"
+  ],
+  "tags": [
+    "returns",
+    "capital"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 29,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "الصيغة المعروضة تفترض عدم إعادة استثمار التوزيعات"
+  ]
+}

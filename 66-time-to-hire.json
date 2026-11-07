@@ -1,0 +1,64 @@
+{
+  "id": "time-to-hire",
+  "originalNumber": 66,
+  "nameEn": "Time to hire",
+  "nameAr": "الوقت اللازم للتوظيف",
+  "acronym": null,
+  "perspectiveId": "employee",
+  "summary": "المدة اللازمة لشغل وظيفة شاغرة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى قدرتنا على شغل الوظائف الشاغرة في أعمالنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "الوقت = تاريخ نهاية العملية − تاريخ بدايتها (بالأيام)، وفق نقطتين معتمدتين",
+    "type": "calculator",
+    "calculatorId": "daysBetweenHire",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "حدد نقطتي البداية والنهاية (فتح الوظيفة، قبول العرض، مباشرة العمل)، وقارن وظائف متشابهة فقط.",
+  "dataSources": [
+    "نظام التوظيف والموارد البشرية",
+    "تسجيل يدوي عند الحاجة"
+  ],
+  "measurementFrequency": {
+    "text": "ينبغي قياسه ربع سنويًا.",
+    "label": "book"
+  },
+  "factors": [
+    "ندرة المهارات",
+    "تعقيد عملية الاختيار",
+    "سرعة الموافقات الداخلية"
+  ],
+  "limitations": [
+    "حدد البداية والنهاية وقارن وظائف متشابهة"
+  ],
+  "commonMistakes": [
+    "مقارنة وظائف تنفيذية بوظائف مبتدئة"
+  ],
+  "relatedKpiIds": [
+    "employee-churn-rate",
+    "salary-competitiveness-ratio"
+  ],
+  "tags": [
+    "people"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 299,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "return-on-assets",
+  "originalNumber": 11,
+  "nameEn": "Return on assets (ROA)",
+  "nameAr": "العائد على الأصول",
+  "acronym": "ROA",
+  "perspectiveId": "financial",
+  "summary": "مقدار الربح الناتج مقارنةً بإجمالي الأصول التي تستخدمها الشركة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نولّد أرباحًا من الأصول التي نتحكم فيها؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "ROA (شائع) = صافي الربح ÷ متوسط الأصول × 100%",
+    "type": "calculator",
+    "calculatorId": "roa",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يتأثر كثيرًا بطبيعة الصناعة وكثافة الأصول، لذا تكون المقارنة مفيدة عادةً داخل نفس القطاع أو عبر الزمن.",
+  "dataSources": [
+    "قائمة الدخل",
+    "الميزانية العمومية"
+  ],
+  "measurementFrequency": {
+    "text": "يُحسب عادةً سنويًا ويُعرض ربع سنويًا على أساس متحرك (آخر أربعة أرباع).",
+    "label": "book"
+  },
+  "factors": [
+    "كثافة الأصول",
+    "صافي الربح",
+    "سياسات الإهلاك"
+  ],
+  "limitations": [
+    "يتأثر بطبيعة الصناعة وكثافة الأصول"
+  ],
+  "commonMistakes": [
+    "مقارنة شركة خدمية بشركة صناعية ثقيلة"
+  ],
+  "relatedKpiIds": [
+    "return-on-capital-employed",
+    "return-on-equity",
+    "return-on-investment",
+    "net-profit-margin"
+  ],
+  "tags": [
+    "returns"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 49,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

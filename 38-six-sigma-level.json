@@ -1,0 +1,70 @@
+{
+  "id": "six-sigma-level",
+  "originalNumber": 38,
+  "nameEn": "Six Sigma level",
+  "nameAr": "مستوى سيغما الستة",
+  "acronym": null,
+  "perspectiveId": "operations",
+  "summary": "مستوى أداء العملية من حيث العيوب، يُشتق من عدد العيوب وفرص حدوثها.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى قدرة عملياتنا على تقديم عمل خالٍ من الأخطاء؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "DPMO = العيوب ÷ (الوحدات × الفرص لكل وحدة) × 1,000,000 ثم يُحوَّل إلى مستوى سيغما",
+    "type": "calculator",
+    "calculatorId": "sixSigma",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "مستوى سيغما أعلى يعني عيوبًا أقل لكل مليون فرصة. قيمته تعتمد على تعريفك للعيب ولـ«الفرصة»، وعلى الاتفاقية المتبعة في تحويل DPMO إلى مستوى سيغما.",
+  "dataSources": [
+    "سجلات الجودة والعيوب",
+    "بيانات الإنتاج والعمليات"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عند بداية مشروع التحسين (خط الأساس) وعند نهايته ثم دوريًا لضمان مبدأ «التحكم» في منهجية DMAIC.",
+    "label": "book"
+  },
+  "factors": [
+    "تعريف العيب والفرصة",
+    "حدود المواصفات",
+    "اتفاقية التحويل (مع/بدون إزاحة 1.5)"
+  ],
+  "limitations": [
+    "عرّف العيب والفرصة وحدود المواصفات",
+    "تختلف اتفاقية التحويل بين المصادر"
+  ],
+  "commonMistakes": [
+    "زيادة عدد «الفرص» لتحسين الرقم شكليًا",
+    "الخلط بين نسبة العيوب ومستوى سيغما"
+  ],
+  "relatedKpiIds": [
+    "first-pass-yield",
+    "rework-level",
+    "quality-index",
+    "overall-equipment-effectiveness"
+  ],
+  "tags": [
+    "quality"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 181,
+  "verificationStatus": "needs-verification",
+  "verificationNotes": [
+    "اتفاقية إزاحة 1.5 سيغما تحتاج تحققًا من تعريف الكتاب ومؤسستك"
+  ]
+}

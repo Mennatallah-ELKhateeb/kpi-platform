@@ -1,0 +1,64 @@
+{
+  "id": "project-cost-variance",
+  "originalNumber": 45,
+  "nameEn": "Project cost variance (PCV)",
+  "nameAr": "انحراف تكلفة المشروع",
+  "acronym": "PCV",
+  "perspectiveId": "operations",
+  "summary": "مقارنة قيمة العمل المنجز بالتكلفة الفعلية.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى تُسلَّم مشروعاتنا ضمن الميزانية؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "انحراف التكلفة (بالقيمة المكتسبة) = القيمة المكتسبة EV − التكلفة الفعلية AC",
+    "type": "calculator",
+    "calculatorId": "costVariance",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "قيمة سالبة تعني أن التكلفة الفعلية تجاوزت قيمة العمل المنجز. وثّق اتجاه الإشارة لأن بعض الأطر تعرّف الفرق بالعكس.",
+  "dataSources": [
+    "برنامج إدارة المشروعات أو تطبيقات التخطيط المالي",
+    "الميزانية والتكاليف الفعلية"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس عادةً شهريًا، ويمكن متابعته بتكرار أعلى للمشروعات القصيرة المهمة.",
+    "label": "book"
+  },
+  "factors": [
+    "دقة تسجيل التكاليف",
+    "تغيرات النطاق",
+    "أسعار الموردين"
+  ],
+  "limitations": [
+    "وثّق الصيغة واتجاه الإشارة"
+  ],
+  "commonMistakes": [
+    "قراءة الانحراف دون معرفة اتجاه الإشارة"
+  ],
+  "relatedKpiIds": [
+    "project-schedule-variance",
+    "earned-value-metric"
+  ],
+  "tags": [
+    "projects"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 209,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "customer-retention-rate",
+  "originalNumber": 20,
+  "nameEn": "Customer retention rate",
+  "nameAr": "معدل الاحتفاظ بالعملاء",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "نسبة العملاء الذين استمروا في التعامل مع الشركة خلال فترة محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نحتفظ بالعملاء الذين اكتسبناهم؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "معدل الاحتفاظ = (عملاء نهاية الفترة − العملاء الجدد) ÷ عملاء بداية الفترة × 100%",
+    "type": "calculator",
+    "calculatorId": "retention",
+    "components": null,
+    "label": "applied"
+  },
+  "interpretation": "يخبرك كم من عملاء بداية الفترة بقي حتى نهايتها. عرّف «العميل النشط» والفترة بوضوح قبل أي مقارنة.",
+  "dataSources": [
+    "سجل المبيعات",
+    "نظام CRM وسجلات المعاملات"
+  ],
+  "measurementFrequency": {
+    "text": "تعتمد على متوسط عمر العلاقة أو مدة العقد أو دورة الشراء، ويبدو الجمع الشهري منطقيًا في معظم الصناعات.",
+    "label": "book"
+  },
+  "factors": [
+    "جودة المنتج والخدمة",
+    "الأسعار والمنافسة",
+    "تعريف العميل النشط ودورة الشراء"
+  ],
+  "limitations": [
+    "يجب تعريف العميل النشط والفترة",
+    "يتجاهل قيمة العميل (قد نحتفظ بعملاء أقل ربحية)"
+  ],
+  "commonMistakes": [
+    "احتساب العملاء الجدد ضمن من تم الاحتفاظ بهم",
+    "مقارنة فترات بدورات شراء مختلفة"
+  ],
+  "relatedKpiIds": [
+    "customer-turnover-rate",
+    "customer-satisfaction-index",
+    "net-promoter-score",
+    "customer-lifetime-value"
+  ],
+  "tags": [
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 91,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

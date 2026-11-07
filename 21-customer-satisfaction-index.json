@@ -1,0 +1,71 @@
+{
+  "id": "customer-satisfaction-index",
+  "originalNumber": 21,
+  "nameEn": "Customer satisfaction index",
+  "nameAr": "مؤشر رضا العملاء",
+  "acronym": null,
+  "perspectiveId": "customer",
+  "summary": "تلخيص لمستوى رضا العملاء وفق أسئلة أو مقاييس محددة في استبيان.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "ما مدى نجاحنا في إرضاء عملائنا؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "متوسط أو مؤشر مركب حسب تصميم الاستبيان (لا توجد صيغة واحدة)",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "الأسئلة المعتمدة وعددها",
+      "مقياس الإجابة (مثلًا 1–5)",
+      "أوزان الأسئلة إن وُجدت",
+      "حجم العينة ومعدل الاستجابة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "قيمة المؤشر تعتمد على صياغة الأسئلة والعينة. لا تقارن مؤشرين تم بناؤهما بأسئلة أو أوزان مختلفة.",
+  "dataSources": [
+    "استبيانات العملاء والمقابلات"
+  ],
+  "measurementFrequency": {
+    "text": "يُقاس غالبًا بصورة مستمرة، وقد تجمّع المؤسسات الدرجات وتعرضها ربع سنويًا مع تعليق نوعي، وقد تجري استبيانًا سنويًا قابلًا للمقارنة مع جهات أخرى (مثل ACSI).",
+    "label": "book"
+  },
+  "factors": [
+    "صياغة الأسئلة",
+    "العينة وتوقيت الاستبيان",
+    "طريقة التجميع والأوزان"
+  ],
+  "limitations": [
+    "العينة وصياغة الأسئلة تؤثران في النتيجة"
+  ],
+  "commonMistakes": [
+    "مقارنة مؤشرات بُنيت بأسئلة مختلفة",
+    "تجاهل التعليقات النوعية"
+  ],
+  "relatedKpiIds": [
+    "net-promoter-score",
+    "customer-complaints",
+    "customer-retention-rate",
+    "customer-engagement"
+  ],
+  "tags": [
+    "customers"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 97,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}

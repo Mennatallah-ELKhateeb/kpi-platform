@@ -1,0 +1,73 @@
+{
+  "id": "energy-consumption",
+  "originalNumber": 70,
+  "nameEn": "Energy consumption",
+  "nameAr": "استهلاك الطاقة",
+  "acronym": null,
+  "perspectiveId": "csr",
+  "summary": "كمية الطاقة المستخدمة خلال فترة محددة.",
+  "definition": null,
+  "managementQuestion": {
+    "text": "إلى أي مدى نخفّض استهلاكنا من الطاقة؟",
+    "label": "book"
+  },
+  "formula": {
+    "display": "مجموع استهلاك مصادر الطاقة بوحدات موحدة (مثل kWh)",
+    "type": "worksheet",
+    "calculatorId": null,
+    "components": [
+      "مصادر الطاقة (كهرباء، غاز، وقود…)",
+      "وحدة القياس الموحدة",
+      "مؤشر النشاط للمقارنة (إنتاج، مساحة…)",
+      "الفترة"
+    ],
+    "label": "applied"
+  },
+  "interpretation": "قارن مع حجم النشاط عند الحاجة (استهلاك لكل وحدة إنتاج)؛ فانخفاض الاستهلاك الكلي قد يعكس انخفاض النشاط لا كفاءة أعلى.",
+  "dataSources": [
+    "فواتير الطاقة",
+    "العدادات",
+    "استهلاك الوقود",
+    "بيانات مورد الطاقة"
+  ],
+  "measurementFrequency": {
+    "text": "يمكن جمعه شهريًا أو ربع سنويًا بحسب فترة الفواتير.",
+    "label": "book"
+  },
+  "factors": [
+    "حجم النشاط",
+    "الطقس والموسمية",
+    "كفاءة المعدات"
+  ],
+  "limitations": [
+    "قارن مع حجم النشاط عند الحاجة"
+  ],
+  "commonMistakes": [
+    "اعتبار انخفاض الاستهلاك تحسنًا دون النظر إلى النشاط"
+  ],
+  "relatedKpiIds": [
+    "savings-levels-due-to-conservation-and-improvement-efforts",
+    "carbon-footprint",
+    "waste-reduction-rate"
+  ],
+  "tags": [
+    "environment",
+    "efficiency"
+  ],
+  "sourceLabel": "book",
+  "provenance": {
+    "identity": "book",
+    "managementQuestion": "book",
+    "summary": "applied",
+    "formula": "applied",
+    "interpretation": "applied",
+    "dataSources": "applied",
+    "measurementFrequency": "book",
+    "factors": "applied",
+    "limitations": "applied",
+    "commonMistakes": "applied"
+  },
+  "sourcePage": 321,
+  "verificationStatus": "identity-verified",
+  "verificationNotes": []
+}
